@@ -6,99 +6,102 @@
         <title>Jessica Soe</title>
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="./scripts/bootstrap.min.js"></script>
-        <script src="./scripts/site.js"></script>
-        <link rel="stylesheet" href="./styles/bootstrap/bootstrap.min.css"></link>
-        <link rel="stylesheet" href="./styles/site.css"></link>
+        <script src="/scripts/bootstrap.min.js"></script>
+        <script src="/scripts/site.js"></script>
+        <link rel="stylesheet" href="/styles/bootstrap/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="/styles/site.css"></link>
     </head>
     <body style="overflow-x:hidden">
         <div class="row">
-            <nav class="hidden-sm-down col-md-2 sidebar row">
+            <nav class="hidden-sm-down col-md-3 col-xl-2 sidebar row">
                 <div class="col-12 title">
                     Title
                 </div>
                 <div class="col-12 link-container">
-                    <a>test</a>
-                    <a>test2</a>
+                    <a href="/index.html">Portfolio</a>
+                    <a>Say Hello</a>
                 </div>
             </nav>
-            <div class="col offset-md-2">
-                <div class="row" style="height:250px;">
-                    <div class="col-12 title">
+            <div class="col offset-md-3 offset-xl-2">
+                <div style="height:400px; position:fixed; padding-left:25px; z-index:-1">
+                    <div class="title" style="height:auto">
                         Welcome
                         <div class="bar">
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="intro-text">
                         I'm Jessica Soe <br/>
-                        Graphic Designer <br/>
+                        <b>Graphic Designer</b> <br/>
                         from somewhere
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-12" style="text-align:center">
-                        <a class="nav-link" onclick="filterBox()">all</a>
-                        <a class="nav-link" onclick="filterBox('art')">art</a>
-                        <a class="nav-link" onclick="filterBox('graphic')">graphic</a>
-                    </div>
+                <div class="row" style="height:250px;">
                 </div>
-                <div class="row">
-                    <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" id="test" tag="" href="./content/test1.html">
-                        <div class="content">
-                            <div class="content-hover">
-                                <h5>Title</h5>
-                                <div class="box-line"></div>
-                                <div>
-                                    Whatever <br/>
-                                    Content you want<br/>
-                                    Here<br/>
-                                </div>
-                            </div>
-                            <img src="./assets/images/placeholder.jpg" />
+                <div style="z-index:100;">
+                    <div class="row p-1 m-1 main-panel">
+                        <div class="col-12" style="text-align:center">
+                            <a class="nav-link" onclick="filterBox()" href="javascript:;">all</a>
+                            <a class="nav-link" onclick="filterBox('art')" href="javascript:;">art</a>
+                            <a class="nav-link" onclick="filterBox('graphic')" href="javascript:;">graphic</a>
+                            <div class="nav-bar"></div>
                         </div>
-                    </a>
-                    <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" tag="graphic" href="./content/test1.html">
-                        <div class="content">
-                            <div class="content-hover">
-                                <h5>Title</h5>
-                                <div class="box-line"></div>
-                                <div>
-                                    Whatever <br/>
-                                    Content you want<br/>
-                                    Here<br/>
+                        <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" id="test" tag="" href="/content/test1.html">
+                            <div class="content">
+                                <div class="content-hover">
+                                    <h5>Title</h5>
+                                    <div class="box-line"></div>
+                                    <div>
+                                        Whatever <br/>
+                                        Content you want<br/>
+                                        Here<br/>
+                                    </div>
                                 </div>
+                                <img src="/assets/images/placeholder.jpg" />
                             </div>
-                            <img src="./assets/images/placeholder.jpg" />
-                        </div>
-                    </a>
-                    <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" tag="art"  href="./content/test1.html">
-                        <div class="content">
-                            <div class="content-hover">
-                                <h5>Title</h5>
-                                <div class="box-line"></div>
-                                <div>
-                                    Whatever <br/>
-                                    Content you want<br/>
-                                    Here<br/>
+                        </a>
+                        <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" tag="graphic" href="/content/test1.html">
+                            <div class="content">
+                                <div class="content-hover">
+                                    <h5>Title</h5>
+                                    <div class="box-line"></div>
+                                    <div>
+                                        Whatever <br/>
+                                        Content you want<br/>
+                                        Here<br/>
+                                    </div>
                                 </div>
+                                <img src="/assets/images/placeholder.jpg" />
                             </div>
-                            <img src="./assets/images/placeholder.jpg" />
-                        </div>
-                    </a>
-                    <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" tag="graphic art" href="./content/test1.html">
-                        <div class="content">
-                            <div class="content-hover">
-                                <h5>Title</h5>
-                                <div class="box-line"></div>
-                                <div>
-                                    Whatever <br/>
-                                    Content you want<br/>
-                                    Here<br/>
+                        </a>
+                        <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" tag="art"  href="/content/test1.html">
+                            <div class="content">
+                                <div class="content-hover">
+                                    <h5>Title</h5>
+                                    <div class="box-line"></div>
+                                    <div>
+                                        Whatever <br/>
+                                        Content you want<br/>
+                                        Here<br/>
+                                    </div>
                                 </div>
+                                <img src="/assets/images/placeholder.jpg" />
                             </div>
-                            <img src="./assets/images/placeholder.jpg" />
-                        </div>
-                    </a>
+                        </a>
+                        <a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" tag="graphic art" href="/content/test1.html">
+                            <div class="content">
+                                <div class="content-hover">
+                                    <h5>Title</h5>
+                                    <div class="box-line"></div>
+                                    <div>
+                                        Whatever <br/>
+                                        Content you want<br/>
+                                        Here<br/>
+                                    </div>
+                                </div>
+                                <img src="./assets/images/placeholder.jpg" />
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
