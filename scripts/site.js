@@ -1,5 +1,6 @@
 $(document).ready(function() {
     setBoxHeight();
+    w3IncludeHTML();
 });
 
 $(window).on('resize', function(){
