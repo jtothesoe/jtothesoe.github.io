@@ -9,6 +9,10 @@
     padding-bottom:5px;
 }
 
+.intro-text{
+    font-size:50px;
+    z-index:0;
+}
 .sidebar{
     position: fixed;
     top: 0;
@@ -28,8 +32,26 @@
 }
 
 .nav-link{
+    font-style:italic;
+    color:black;
     padding: 2px 5px;
     display:inline-block;
+}
+.nav-bar{
+    position:absolute; 
+    left:50%; 
+    margin-left:-25px; 
+    width:50px; 
+    border-bottom:solid thin;
+}
+
+.main-panel{
+    -webkit-box-shadow: 0 0 8px 1px rgba(169,169,169,0.75);
+    -moz-box-shadow: 0 0 8px 1px rgba(169,169,169,0.75);
+    box-shadow: 0 0 8px 1px rgba(169,169,169,0.75);
+    border:none;
+    border-radius:5px;
+    background-color:white;
 }
 
 .box{
