@@ -1,0 +1,11 @@
+.project-detail-list{
+    list-style: none;
+}
+
+.project-detail-list li{
+    border-bottom: thin solid;
+}
+
+.project-detail-text{
+    font-size:18px;
+}
