@@ -14,3 +14,5 @@ ko.components.register('sidenav', {
             </div>\
         </nav>'
 });
+
+ko.applyBindings();
