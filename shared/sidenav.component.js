@@ -14,7 +14,7 @@ ko.components.register('sidenav', {
                 Title\
             </div>\
             <div class="col-12 link-container">\
-                <a data-bind="foreach: navItem" data-bind="href: url" data-bind="text: text"></a>\
+                <div data-bind="foreach: navItem"><a data-bind="href: url" data-bind="text: text"></a></div>\
                 <a>Say Hello</a>\
             </div>\
         </nav>'
