@@ -3,18 +3,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Jessica Soe</title>
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="/scripts/bootstrap.min.js"></script>
-        <script src="/scripts/site.js"></script>
-        <script src="/scripts/w3scripts.js"></script>
         <link rel="stylesheet" href="/styles/bootstrap/bootstrap.min.css"></link>
         <link rel="stylesheet" href="/styles/site.css"></link>
         <link rel="stylesheet" href="/styles/project.css"></link>
     </head>
     <body>
         <div class="row">
-            <div w3-include-html="/shared/sidebar.html"></div>
+            <sidenav></sidenav>
             <div class="col offset-md-3 offset-xl-2">
                 <div class="row">
                     <h2>Project Title</h2>
@@ -114,5 +109,12 @@
             </div>
             <a href="/website/index.html">Go back</a>
         </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="/scripts/bootstrap.min.js"></script>
+        <script src="/scripts/site.js"></script>
+        <script type='text/javascript' src='/scripts/knockout-3.4.1.js'></script>
+        <script src="/shared/sidenav.component.js"></script>
     </body>
 </html>

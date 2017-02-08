@@ -1,7 +1,11 @@
 ko.components.register('sidenav', {
     viewModel: function(params) {
         // Data: value is either null, 'like', or 'dislike'
-        this.text = ko.observable(params.initialText || '');
+        this.navItem = [
+            {text:'Portfolio', url:'/index.html'},
+            {text:'About Me', url:'/portfolio.html'},
+            {text:'Say Hello', url:'/'}
+        ]
         // Behaviors
     },
     template:
@@ -10,7 +14,7 @@ ko.components.register('sidenav', {
                 Title\
             </div>\
             <div class="col-12 link-container">\
-                <a href="index.html">Portfolio</a>\
+                <a data-bind="foreach: navItem" data-bind="href: url" data-bind="text: text"></a>\
                 <a>Say Hello</a>\
             </div>\
         </nav>'
