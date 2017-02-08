@@ -1,5 +1,5 @@
 ko.components.register('sidenav', {
-    viewModel: function(params) {
+    viewModel: function() {
         // Data: value is either null, 'like', or 'dislike'
         // Behaviors
     },
