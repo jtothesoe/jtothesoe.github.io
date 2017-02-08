@@ -1,6 +1,7 @@
 ko.components.register('sidenav', {
-    viewModel: function() {
+    viewModel: function(params) {
         // Data: value is either null, 'like', or 'dislike'
+        this.text = ko.observable(params.initialText || '');
         // Behaviors
     },
     template:
