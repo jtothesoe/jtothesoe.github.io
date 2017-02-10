@@ -13,7 +13,7 @@ ko.components.register('sidenav', {
             <div class="col-12 title">\
                 Title\
             </div>\
-<img src="http://i.imgur.com/P5PGQOj.png" alt="logo">\
+<img src="http://i.imgur.com/P5PGQOj.png" alt="logo" style="width:50px;height:102px;>\
             <div class="col-12 link-container">\
                 <div data-bind="foreach: navItem"><a data-bind="attr:{href: url}, text: text"></a></div>\
                 <a>Say Hello</a>\
