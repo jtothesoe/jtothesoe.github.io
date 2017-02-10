@@ -10,7 +10,7 @@ ko.components.register('sidenav', {
     },
     template:
         '<nav class="hidden-sm-down col-md-3 col-xl-2 sidebar row">\
-            <div class="col-10 title">\
+            <div class="col-12 title">\
                 Title\
             </div>\
             <div class="col-12 link-container">\
