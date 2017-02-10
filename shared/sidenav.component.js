@@ -2,15 +2,15 @@ ko.components.register('sidenav', {
     viewModel: function(params) {
         // Data: value is either null, 'like', or 'dislike'
         this.navItem = ko.observable([
-            {text:'home', url:'/index.html'}, <br>
-            {text:'about', url:'/portfolio.html'}, <br>
+            {text:'home', url:'/index.html'}, 
+            {text:'about', url:'/portfolio.html'}, 
             {text:'contact', url:'/'}
         ]);
         // Behaviors
     },
     template:
         '<nav class="hidden-sm-down col-md-3 col-xl-2 sidebar row">\
-            <div class="col-12 title">\
+            <div class="col-10 title">\
                 Title\
             </div>\
             <div class="col-12 link-container">\
