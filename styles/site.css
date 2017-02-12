@@ -150,3 +150,18 @@
   padding-bottom: 7px;
 }
 
+.footer-style-five .social-profile {
+  float: none;
+  text-align: center;
+}
+.footer-style-five .logo.footer-logo {
+  padding: 0;
+}
+.footer-style-five .logo.footer-logo > h3 {
+  border-bottom: medium none;
+  display: inline-block;
+  padding-bottom: 0;
+}
+.footer-style-five .social-profile{
+  float: right;
+}
