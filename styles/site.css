@@ -107,6 +107,9 @@ p {
     overflow-y: auto;
     border-right: 1px solid #eee;
     background:#eee;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
 }
 
 .sidebar .link-container{
@@ -136,6 +139,9 @@ p {
     border:none;
     border-radius:5px;
     background-color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .box{
