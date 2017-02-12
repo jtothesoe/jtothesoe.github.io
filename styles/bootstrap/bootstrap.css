@@ -7,10 +7,7 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   
-  font-family: 'Lato', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 14px;
+  font-family: sans-serif;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
