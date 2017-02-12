@@ -14,8 +14,7 @@ ko.components.register('sidenav', {
 <img src="http://i.imgur.com/P5PGQOj.png?4" alt="logo" style="width:50px;height:102px;" align="middle">\
 </div>\
             <div class="col-12 link-container">\
-             
-                <a>All © Reserved Jessica Soe</a>\  
+             <a>All © Reserved Jessica Soe</a>\  
                             </div>\
             <div class="social-profile">\
                 <ul>\
