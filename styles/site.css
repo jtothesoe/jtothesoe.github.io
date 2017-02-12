@@ -99,70 +99,49 @@
 /*------------------------------------------------------------------------------------
    Footer area style -- Social profile
 ------------------------------------------------------------------------------------*/
-.footer-area {
-  border-top: 1px solid #e5e5e5;
-  padding: 25px 0;
+/*------------------------------------------------------------------------------------
+   Social profile
+------------------------------------------------------------------------------------*/
+.social-profile ul>li{
+   display: inline-block;
+   padding: 0 2px;
 }
-.copy-right {
-  padding: 4px 0 2px;
+
+.social-profile a{
+   border: 1px solid #555;
+   border-radius: 100%;
+   color: #555;
+   display: inline-block;
+   overflow: hidden;
+   font-size: 14px;
+   height: 30px;
+   line-height: 27px;
+   text-align: center;
+   width: 30px;
+
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
 }
-.social-profile {
-  float: right;
-}
-.social-profile ul>li {
-  float: left;
-  margin-left: 10px;
-}
-.social-profile a {
-  border: 1px solid #555;
-  border-radius: 100%;
-  color: #555;
-  display: inline-block;
-  overflow: hidden;
-  font-size: 14px;
-  height: 30px;
-  line-height: 27px;
-  text-align: center;
-  width: 30px;
-}
+
 .social-profile a:hover{
-  border: 1px solid #333;
-  color: #333;
-}
-.copy-right > p {
-  display: inline-block;
-  font-size: 12px;
-  letter-spacing: 1px;
-  margin: 0;
-  text-transform: uppercase;
+    border: 1px solid #333;
+    color: #333;
+
 }
 
-.footer-style-two .social-profile {
-  float: none;
-}
-.footer-style-two  .social-profile > li {
-  display: inline-block;
-  float: none;
-  margin: 0 2px;
-}
-.logo.footer-logo > h3 {
-  border-bottom: 1px solid #232323;
-  display: inline-block;
-  padding-bottom: 7px;
+.social-profile.style2 ul{
+    text-align: center;
 }
 
-.footer-style-five .social-profile {
-  float: none;
-  text-align: center;
+.social-profile.style2 ul>li>a{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    line-height: 1;
+    background: transparent;
+    color: #a3a4a5;
 }
-.footer-style-five .logo.footer-logo {
-  padding: 0;
-}
-.footer-style-five .logo.footer-logo > h3 {
-  border-bottom: medium none;
-  display: inline-block;
-  padding-bottom: 0;
-}
-.footer-style-five .social-profile{
-  float: right;
+
+.social-profile.style2 ul>li>a:hover{
+    color: #ffffff;
 }
