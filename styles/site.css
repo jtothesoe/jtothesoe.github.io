@@ -122,7 +122,8 @@ p {
     background:#ffffff;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-    font-weight: normal;	
+    font-weight: normal;
+    line-height: 2.0;
 }
 
 .sidebar .link-container{
