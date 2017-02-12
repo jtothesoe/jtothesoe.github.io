@@ -102,7 +102,7 @@ p {
     bottom: 0;
     left: 0;
     z-index: 1000;
-    max-width:200px;
+    max-width:210px;
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto;
