@@ -114,6 +114,7 @@ p {
     left: 0;
     z-index: 1000;
     max-width:245px;
+	height: auto;
     padding: 20px 0 0 30px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -168,7 +169,6 @@ p {
     background-color:white;
     font-family: 'Playfair Display', sans-serif;
     font-weight: normal;
-    padding-right: 30px;
 }
 
 .box{
@@ -297,7 +297,7 @@ p {
     5.  Maincontainer Style
 ------------------------------------------------------------------------------------*/
 
-..main-panel{
+.main-panel{
     margin-left: 300px;
     background-color: #f7f7f7;
     padding: 0 30px;
@@ -319,7 +319,7 @@ p {
 ------------------------------------------------------------------------------------*/
 .social-profile ul>li{
    display: inline-block;
-   padding: 0px;
+   padding: 5px;
 }
 
 .social-profile a{
