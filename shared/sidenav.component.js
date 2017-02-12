@@ -24,6 +24,7 @@ ko.components.register('sidenav', {
                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>\
                     <li><a href="#"><i class="fa fa-dribbble"></i></a></li>\
                 </ul>\
+              </div>\
         </nav>'
 });
 
