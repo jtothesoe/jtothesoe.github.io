@@ -113,7 +113,7 @@ p {
     bottom: 0;
     left: 0;
     z-index: 1000;
-    max-width:300px;
+    max-width:250px;
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -279,8 +279,6 @@ p {
    line-height: 27px;
    text-align: center;
    width: 30px;
-  
-
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
 }
@@ -308,9 +306,6 @@ p {
     color: #ffffff;
 }
 
-.social-profile i {
-  margin-top:12px;
-}
 
 /*--------------------------------------
 	5.1 PORTFOLIO FILTER STYLE
