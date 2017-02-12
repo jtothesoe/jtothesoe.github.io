@@ -11,20 +11,20 @@ ko.components.register('sidenav', {
     template:
         '<nav class="hidden-sm-down col-md-3 col-xl-2 sidebar row">\
             <div class="col-12 title">\
-<img src="http://i.imgur.com/P5PGQOj.png?4" alt="logo" style="width:50px;height:102px;" align="middle" hspace"5">\
-</div>\
-            <div class="col-12 link-container">\
-           <div class="flex-container" style="flex-direction:row" data-bind="foreach: navItem"><div><a data-bind="attr:{href: url}, text: text"></a></div></div>\
-            <div class="col-12 link-container">\  <a>2017 ©  Jessica Soe </a> </div>\
-                <div class="social-profile">\
-                <ul>\
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>\
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>\
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>\
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>\
-                </ul>\
+                <img src="http://i.imgur.com/P5PGQOj.png?4" alt="logo" style="width:50px;height:102px;" align="middle" hspace"5">\
             </div>\
-              </div>\
+            <div class="col-12 link-container">\
+                <div class="flex-container" style="flex-direction:row" data-bind="foreach: navItem"><div><a data-bind="attr:{href: url}, text: text"></a></div></div>\
+                <div class="link-container">\  <a>2017 ©  Jessica Soe </a> </div>\
+                <div class="social-profile">\
+                    <ul>\
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>\
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>\
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>\
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>\
+                    </ul>\
+                </div>\
+            </div>\
         </nav>'
 });
 
