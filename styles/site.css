@@ -109,7 +109,7 @@
 .social-profile {
   float: right;
 }
-.social-profile > li {
+.social-profile ul>li {
   float: left;
   margin-left: 10px;
 }
@@ -118,6 +118,7 @@
   border-radius: 100%;
   color: #555;
   display: inline-block;
+  overflow: hidden;
   font-size: 14px;
   height: 30px;
   line-height: 27px;
