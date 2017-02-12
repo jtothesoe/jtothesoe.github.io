@@ -170,9 +170,9 @@ p {
 }
 
 .box .box-line{
-    width:33%;
+    width:25%;
     border-bottom:thick solid salmon;
-    padding-bottom:5px;
+    padding-bottom:2px;
 }
 
 
