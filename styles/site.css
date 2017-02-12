@@ -530,5 +530,19 @@ section.mastwrap.top-spaced {
 }
 
 
+/* FONTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.font1 {
+  font-family: 'Lato', sans-serif;
+}
+.font2 {
+  font-family: 'Montserrat', sans-serif;
+}
+.font3 {
+  font-family: 'Raleway', sans-serif;
+}
+.font4 {
+  font-family: 'Lekton', sans-serif;
+}
 
