@@ -151,7 +151,8 @@ button {
 }
 h1,
 h2,
-h3,
+h3, { margin-top: 0;
+	margin-bottom: 0;}
 h4,
 h5,
 h6 {
@@ -534,8 +535,8 @@ section.mastwrap.top-spaced {
     font-weight: normal;
 }
 .cd-headline{    
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 80px;
+    line-height: 90px;
     margin-bottom: 20px;
     font-weight: normal;
 }
@@ -563,8 +564,8 @@ section.mastwrap.top-spaced {
 }
 
 .super-heading{
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 80px;
+    line-height: 90px;
     margin-bottom: 20px;
 }
 .super-heading .text-rotator{
