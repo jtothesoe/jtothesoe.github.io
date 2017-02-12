@@ -219,7 +219,7 @@ p {
     left: 0;
     z-index: 1000;
     max-width:245px;
-	height: auto;
+	/*  height: auto; */
     padding: 20px 0 0 30px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -228,7 +228,7 @@ p {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    line-height: 5.0;
+    line-height: 3.0;
 }
 
 .sidebar .link-container{
