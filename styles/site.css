@@ -121,7 +121,39 @@ p {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
+	margin-bottom: 40px;
+  padding-bottom: 30px;
 }
+
+
+
+.sidebar-menu li {
+  color: #232323;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.sidebar-menu li a{
+  color: #232323;
+}
+.sidebar-menu li li a{
+  display: inline-block;
+}
+.sidebar-menu li:hover > a,
+.sidebar-menu > li:hover{
+  color: #888888;
+}
+.sidebar-menu li i {
+  margin-left: 6px;
+}
+.sidebar-menu > li > ul {
+  border-left: 1px solid #e5e5e5;
+  padding-left: 15px;
+}
+
+
 
 .sidebar .link-container{
     display: flex;
