@@ -1,7 +1,6 @@
 $(document).ready(function() {
     setBoxHeight();
     setBackgroundTextHeight();
-    w3IncludeHTML();
 });
 
 $(window).on('resize', function(){
