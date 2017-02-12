@@ -1,3 +1,108 @@
+/*Preloader*/
+html.preloader-running, body.preloader-running {
+    overflow: hidden;
+}
+
+html.preloader-running .sticky-sidebar {
+    display: block;
+}
+
+div#preloader.signature-rein {
+    background: none repeat scroll 0 0 white;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+}
+.home-page #preloader{
+    top: 0 !important;
+}
+
+div#preloader.signature-rein.fluidview {
+    left: 0px;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px 80px;
+    margin: -100px 0 0 -100px;
+}
+.main-heading{
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+.medium-heading{
+    font-size: 64px;
+    line-height: 71px;
+    margin-bottom: 20px;
+}
+.super-heading{
+    font-size: 112px;
+    line-height: 125px;
+    margin-bottom: 20px;
+}
+.super-heading .text-rotator{
+    display: inline-block;
+}
+.sub-heading span{
+    border: solid 2px;
+    padding: 10px;
+    padding-left: 22px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+.promo-text{
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.liner{
+    width: 200px;
+    height: 6px;
+    display: inline-block;
+}
+.liner-small{
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+}
+
+
+/* 2. Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header.masthead.signature-rein {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9900;
+
+}
+.main-logo{
+    margin: 18px 0;
+}
+.menu-trigger{
+    margin-top: 25px;
+    display: block;
+}
+.menu-trigger span{
+    font-size: 42px;
+}
+
+
+
 body {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
