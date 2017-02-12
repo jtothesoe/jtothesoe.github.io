@@ -232,7 +232,7 @@ p {
 ------------------------------------------------------------------------------------*/
 .social-profile ul>li{
    display: inline-block;
-   padding: 0px;
+   padding: 10px;
 }
 
 .social-profile a{
@@ -241,11 +241,13 @@ p {
    color: #b4b9ba;
    display: inline-block;
    overflow: hidden;
-   font-size: 12px;
+   font-size: 14px;
    height: 30px;
    line-height: 27px;
    text-align: center;
    width: 30px;
+   margin: 0 5px;
+  
 
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
