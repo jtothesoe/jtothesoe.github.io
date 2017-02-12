@@ -113,7 +113,7 @@ p {
     bottom: 0;
     left: 0;
     z-index: 1000;
-    max-width:210px;
+    max-width:300px;
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -243,7 +243,7 @@ p {
     5.  Maincontainer Style
 ------------------------------------------------------------------------------------*/
 
-.main-container{
+..main-panel{
     margin-left: 300px;
     background-color: #f7f7f7;
     padding: 0 30px;
