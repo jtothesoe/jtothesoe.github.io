@@ -127,7 +127,7 @@ p {
 
 
 
-.sidebar-menu li {
+.sidebar li {
   color: #232323;
   display: block;
   font-size: 12px;
@@ -135,20 +135,20 @@ p {
   padding: 5px 0;
   text-transform: uppercase;
 }
-.sidebar-menu li a{
+.sidebar li a{
   color: #232323;
 }
-.sidebar-menu li li a{
+.sidebar li li a{
   display: inline-block;
 }
-.sidebar-menu li:hover > a,
+.sidebar li:hover > a,
 .sidebar-menu > li:hover{
   color: #888888;
 }
-.sidebar-menu li i {
+.sidebar li i {
   margin-left: 6px;
 }
-.sidebar-menu > li > ul {
+.sidebar > li > ul {
   border-left: 1px solid #e5e5e5;
   padding-left: 15px;
 }
