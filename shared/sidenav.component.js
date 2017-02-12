@@ -26,7 +26,6 @@ ko.components.register('sidenav', {
                     </ul>\
                 </div>\
                 <div style="width:100%">\  <a>2017 ©  Jessica Soe </a> </div>\
-                
             </div>\
         </nav>'
 });
