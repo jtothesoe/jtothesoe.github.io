@@ -542,55 +542,5 @@ section.mastwrap.top-spaced {
   letter-spacing: 4px;
 }
 
-/*SERVICES*/
-.services.signature-rein .service-block.signature-rein{
-    padding: 10px 50px;
-    text-align: center;
-}
-.services.signature-rein .service-block.signature-rein span{
-  font-size: 108px;
-}
-.services.signature-rein .service-block.signature-rein h3{
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin-top: 0px;
-}
-.services.signature-rein .liner-small{
-  margin-bottom: 10px;
-}
-/*SKILLS*/
-.skills.signature-rein .progress-bar{
-    width: 0;
-}
-.skills.signature-rein .progress{
-    height: 10px;
-    box-shadow: none;
-    border-radius: 0;
-}
-.skills.signature-rein .progress.active .progress-bar {
-    -webkit-transition: none !important;
-    transition: none !important;
-}
-.progress-container.signature-rein{
-    padding: 30px 80px;
-}
-.progress-container.signature-rein h6{
-    margin: 10px 0;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.progress-container.signature-rein h6 > span{
-    font-size: 36px;
-    line-height: 43px;
-}
-.progress-container.signature-rein h6 > span:before{
-    content: ' / ';
-    font-size: 20px;
-    line-height: 27px;
-    font-style: italic;
-    color: #ccc;
-}
+
+
