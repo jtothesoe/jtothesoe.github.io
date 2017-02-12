@@ -25,7 +25,8 @@ ko.components.register('sidenav', {
                     </ul>\
                 </div>\
             </div>\
-        </nav>'
+        </nav>\
+	    <div class="hidden-sm-down col-md-3 col-xl-2 sidebar-spacer"></div>'
 });
 
 ko.applyBindings();
