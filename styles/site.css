@@ -118,7 +118,9 @@ p {
 }
 
 .nav-link{
-    font-style:italic;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-style:none;
     color:black;
     padding: 2px 5px;
     display:inline-block;
