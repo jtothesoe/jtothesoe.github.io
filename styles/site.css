@@ -106,8 +106,8 @@ p {
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto;
-    border-right: 1px solid #eee;
-    background:#eee;
+    border-right: 1px solid #ffffff;
+    background:#ffffff;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
@@ -141,7 +141,7 @@ p {
     box-shadow: 0 0 8px 1px rgba(169,169,169,0.75);
     border:none;
     border-radius:5px;
-    background-color:white;
+    background-color:f6f6f6;
     font-family: 'Playfair Display', sans-serif;
     font-weight: normal;
 }
