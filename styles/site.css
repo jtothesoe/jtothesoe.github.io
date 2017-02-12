@@ -96,6 +96,16 @@ p {
     font-size:50px;
     z-index:0;
 }
+
+.logo{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+}
+
 .sidebar{
     position: fixed;
     top: 0;
@@ -116,6 +126,15 @@ p {
 .sidebar .link-container{
     display: flex;
     flex-direction: column;
+}
+
+.sidebar .social-profile{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
 }
 
 .nav-link{
@@ -225,6 +244,7 @@ p {
    line-height: 27px;
    text-align: center;
    width: 30px;
+   margin: 0 20px;
 
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
@@ -251,6 +271,10 @@ p {
 
 .social-profile.style2 ul>li>a:hover{
     color: #ffffff;
+}
+
+.social-profile i {
+  margin-top:12px;
 }
 
 /*--------------------------------------
