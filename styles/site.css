@@ -229,6 +229,8 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     line-height: 3.0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
 }
 
 .sidebar .link-container{
@@ -328,11 +330,6 @@ p {
   top: 0;
   width: 240px;
   z-index: 2;
-}
-.sidebar {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 40px;
-  padding-bottom: 30px;
 }
 .content-right-side {
   padding-left: 240px;
