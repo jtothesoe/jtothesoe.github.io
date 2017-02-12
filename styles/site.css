@@ -123,7 +123,7 @@ p {
     font-size: 12px;
     font-style:none;
     color:black;
-    padding: 2px 5px;
+    padding: 2px 10px;
     display:inline-block;
     text-transform: uppercase;
 }
@@ -201,7 +201,7 @@ p {
    color: #b4b9ba;
    display: inline-block;
    overflow: hidden;
-   font-size: 14px;
+   font-size: 12px;
    height: 30px;
    line-height: 27px;
    text-align: center;
