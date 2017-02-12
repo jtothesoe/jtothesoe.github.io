@@ -95,3 +95,49 @@
     filter: grayscale(100%);
 }
 
+
+/*------------------------------------------------------------------------------------
+   Social profile
+------------------------------------------------------------------------------------*/
+.social-profile ul>li{
+   display: inline-block;
+   padding: 0 2px;
+}
+
+.social-profile a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 32px;
+    background: #f7f7f7;
+    color: #b4b9ba;
+    font-size: 15px;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.social-profile a:hover{
+    color: #fff;
+    background: #191b1f;
+}
+
+.social-profile.style2 ul{
+    text-align: center;
+}
+
+.social-profile.style2 ul>li>a{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    line-height: 1;
+    background: transparent;
+    color: #a3a4a5;
+}
+
+.social-profile.style2 ul>li>a:hover{
+    color: #ffffff;
+}
+
