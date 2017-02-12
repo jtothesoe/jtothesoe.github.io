@@ -105,7 +105,7 @@
 ------------------------------------------------------------------------------------*/
 .social-profile ul>li{
    display: inline-block;
-   padding: 0 1px;
+   padding: 0px;
 }
 
 .social-profile a{
