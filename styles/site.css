@@ -4,6 +4,7 @@ body {
   font-style: normal;
   font-size: 12px;
   letter-spacing: 1px;
+	background-color: #f7f7f7;
 }
 
 a:focus,
@@ -264,7 +265,7 @@ p {
 ------------------------------------------------------------------------------------*/
 .social-profile ul>li{
    display: inline-block;
-   padding: 10px;
+   padding: 0px;
 }
 
 .social-profile a{
@@ -278,7 +279,6 @@ p {
    line-height: 27px;
    text-align: center;
    width: 30px;
-   margin: 0 5px;
   
 
     -webkit-transition: all .25s ease-in-out;
