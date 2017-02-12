@@ -17,6 +17,7 @@ ko.components.register('sidenav', {
              <div class="flex-container" style="flex-direction:row" data-bind="foreach: navItem"><div><a data-bind="attr:{href: url}, text: text"></a></div></div>\
              <a>2017 ©  Jessica Soe </a>\
                 <div class="social-profile">\
+ <a>2017 ©  Jessica Soe </a>\
                 <ul>\
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>\
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>\
