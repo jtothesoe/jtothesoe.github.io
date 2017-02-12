@@ -106,7 +106,7 @@ p {
     transform: translateX(-50%);
     width: 100%;
 }
-/*---------------------------------
+
 .sidebar{
     position: fixed;
     top: 0;
@@ -124,7 +124,6 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: normal;	
 }
-----------------------------------*/
 
 .sidebar .link-container{
     display: flex;
@@ -156,7 +155,7 @@ p {
     width:50px; 
     border-bottom:solid thin;
 }
-/*---------------------------------
+
 .main-panel{
     -webkit-box-shadow: 0 0 8px 1px rgba(169,169,169,0.75);
     -moz-box-shadow: 0 0 8px 1px rgba(169,169,169,0.75);
@@ -167,7 +166,7 @@ p {
     font-family: 'Playfair Display', sans-serif;
     font-weight: normal;
 }
-----------------------------------*/
+
 .box{
     padding:15px;
 }
