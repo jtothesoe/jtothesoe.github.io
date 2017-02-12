@@ -113,7 +113,7 @@ p {
     bottom: 0;
     left: 0;
     z-index: 1000;
-    max-width:240px;
+    max-width:245px;
     padding: 20px 0 0 30px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -126,35 +126,6 @@ p {
   padding-bottom: 30px;
 	
 }
-
-
-
-.sidebar li {
-  color: #232323;
-  display: block;
-  font-size: 12px;
-  letter-spacing: 1px;
-  padding: 5px 0;
-  text-transform: uppercase;
-}
-.sidebar li a{
-  color: #232323;
-}
-.sidebar li li a{
-  display: inline-block;
-}
-.sidebar li:hover > a,
-.sidebar-menu > li:hover{
-  color: #888888;
-}
-.sidebar li i {
-  margin-left: 6px;
-}
-.sidebar > li > ul {
-  border-left: 1px solid #e5e5e5;
-  padding-left: 15px;
-}
-
 
 
 .sidebar .link-container{
@@ -239,6 +210,87 @@ p {
     filter: grayscale(100%);
 }
 
+/*---------------------------------
+	2.4 HEADER STYLE SIX
+----------------------------------*/
+.header-left {
+  background: #ffffff none repeat scroll 0 0;
+  bottom: 0;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 20px 0 0 30px;
+  position: fixed;
+  text-align: left;
+  top: 0;
+  width: 240px;
+  z-index: 2;
+}
+.sidebar {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+.content-right-side {
+  padding-left: 240px;
+  width: 100%;
+  z-index: 1;
+}
+.inner-content-wrapper {
+  padding: 60px 60px 30px;
+}
+.header-left .logo {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 50px;
+  padding: 25px 0 0;
+}
+.header-left .logo h3 {
+  border: 2px solid #333;
+  display: inline-block;
+  height: 65px;
+  line-height: 62px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+.sidebar > li{
+  cursor: pointer;
+}
+.sidebar li {
+  color: #232323;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+.sidebar li a{
+  color: #232323;
+}
+.sidebar li li a{
+  display: inline-block;
+}
+.sidebar li:hover > a,
+.sidebar > li:hover{
+  color: #888888;
+}
+.sidebar li i {
+  margin-left: 6px;
+}
+.sidebar > li > ul {
+  border-left: 1px solid #e5e5e5;
+  padding-left: 15px;
+}
+.header-left .social-profile {
+  float: left;
+}
+.header-left .social-profile > li {
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.flay-menu-wrapper{
+  display: none;
+}
 
 /*------------------------------------------------------------------------------------
     5.  Maincontainer Style
