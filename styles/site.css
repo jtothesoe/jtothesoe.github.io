@@ -79,6 +79,19 @@ div#preloader.signature-rein.fluidview {
     display: inline-block;
 }
 
+.color-bg {
+  background-color: #3498db;
+}
+
+.color {
+  color: #3498db;
+}
+.color2 {
+  color: #2ecc71;
+}
+.color3 {
+  color: #e74c3c;
+}
 
 /* 2. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -546,3 +559,11 @@ section.mastwrap.top-spaced {
   font-family: 'Lekton', sans-serif;
 }
 
+.super-heading{
+    font-size: 112px;
+    line-height: 125px;
+    margin-bottom: 20px;
+}
+.super-heading .text-rotator{
+    display: inline-block;
+}
