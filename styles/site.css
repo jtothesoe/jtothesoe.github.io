@@ -185,6 +185,25 @@ p {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
+/*------------------------------------------------------------------------------------
+    5.  Maincontainer Style
+------------------------------------------------------------------------------------*/
+
+.main-container{
+    margin-left: 300px;
+    background-color: #f7f7f7;
+    padding: 0 30px;
+    margin-top: 488px;
+    margin-bottom: 310px;
+}
+
+.main-content{
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.12);
+    overflow: hidden;
+    z-index: 1;
+}
 
 
 /*------------------------------------------------------------------------------------
