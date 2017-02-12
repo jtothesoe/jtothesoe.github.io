@@ -106,7 +106,7 @@ p {
     transform: translateX(-50%);
     width: 100%;
 }
-
+/*---------------------------------
 .sidebar{
     position: fixed;
     top: 0;
@@ -122,10 +122,9 @@ p {
     background:#ffffff;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
-    font-weight: normal;
-	
+    font-weight: normal;	
 }
-
+----------------------------------*/
 
 .sidebar .link-container{
     display: flex;
