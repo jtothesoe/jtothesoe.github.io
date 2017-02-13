@@ -1,6 +1,7 @@
 .project-detail-list{
     list-style: none;
     font-size: 12px;
+   
 }
 
 .project-detail-list li{
@@ -11,11 +12,16 @@
     padding-top: 20 px;
     letter-spacing: 2px;
     line-height: 2px; 
+    font-weight: bold; 
 }
 
 .project-detail-text{
-    font-family: Playfair Display;
     font-size:12px;
     padding-top: 20px;
     width: 80%;
 }
+
+.project-detail-text li{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: normal;
+    font-size:12px;
