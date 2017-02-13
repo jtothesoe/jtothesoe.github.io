@@ -5,7 +5,7 @@
 .project-detail-list li{
     border-bottom: thin solid;
     border-color: lightgrey;
-    border-spacing: 10px;
+    border-spacing: 10px 20px;
 }
 
 .project-detail-text{
