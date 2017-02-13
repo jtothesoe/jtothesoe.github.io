@@ -11,7 +11,10 @@
     margin-left: 60px;
     line-height: 20px; 
     padding-bottom: 20px;
-    letter-spacing: 20px;
+}
+
+.project-detail-list p{
+    letter-spacing: 5px;
 }
 
 .project-detail-text{
