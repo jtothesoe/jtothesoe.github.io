@@ -7,7 +7,8 @@
 .project-detail-list li{
     border-bottom: thin solid;
     border-color: lightgrey;
-    padding-left: 40px;
+    margin-left: 40px;
+    line-height: 2px; 
 }
 
 .project-detail-text{
