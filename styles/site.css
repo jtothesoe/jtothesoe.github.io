@@ -312,7 +312,7 @@ p {
 }
 
 .box .content-hover:hover{
-    opacity:1;
+    opacity:.5;
 }
 
 .box .box-line{
