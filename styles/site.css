@@ -298,7 +298,7 @@ p {
     width: calc(100% - 30px);
     height: calc(100% - 30px);
     margin:15px;
-    background-color:white;
+    background-color: none;
     z-index:1000;
     opacity:0;
 }
@@ -552,7 +552,7 @@ section.mastwrap.top-spaced {
   font-family: 'Roboto', sans-serif;
 }
 .font4 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .super-heading{
