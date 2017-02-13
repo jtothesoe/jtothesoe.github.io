@@ -10,7 +10,6 @@
     border-spacing: 10px 20px;
     padding-left: 40px;
     padding-top: 20 px;
-    letter-spacing: 2px;
     line-height: 2px; 
     font-weight: bold; 
 }
@@ -19,7 +18,11 @@
     font-size:14px;
     padding-top: 20px;
     width: 80%;
+}
+
+
+.project-detail-text li{
     font-family: 'Playfair Display', sans-serif;
     font-weight: normal;
-}
+    
 
