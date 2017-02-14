@@ -121,12 +121,12 @@ div#preloader.signature-rein.fluidview {
 }
 .project-spec.signature-york li{
   padding: 10px 0;
-  border-top: solid 1px #eee;
+  border-top: solid 1px #ccc;
   font-size: 12px;
   line-height: 24px;
 }
 .project-spec.signature-york li:last-child{
-  border-bottom: solid 1px #eee;
+  border-bottom: solid 1px #ccc;
 }
 
 /* 2. Header
