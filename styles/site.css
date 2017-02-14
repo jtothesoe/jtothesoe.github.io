@@ -300,11 +300,12 @@ p {
     margin:15px;
     background-color: none;
     z-index:1000;
-    opacity:0;
+    opacity:1;
 }
 
 .box .content-hover:hover{
     opacity:.5;
+    filter: alpha(opacity=50);
 }
 
 .box .box-line{
