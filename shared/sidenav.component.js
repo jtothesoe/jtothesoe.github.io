@@ -19,9 +19,9 @@ ko.components.register('sidenav', {
             <div class="col-12 link-container" style="flex-direction:column-reverse !important">\
                 <div class="social-profile">\
                     <ul>\
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>\
+                        <li><a href="https://www.linkedin.com/in/jessicasoe/"><i class="fa fa-linkedin"></i></a></li>\
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>\
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>\
+                        <li><a href="https://www.instagram.com/eossoe/"><i class="fa fa-instagram"></i></a></li>\
                         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>\
                     </ul>\
                 </div>\
