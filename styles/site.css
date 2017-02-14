@@ -68,16 +68,33 @@ div#preloader.signature-rein.fluidview {
     line-height: 32px;
     letter-spacing: 2px;
 }
+
+.hero-text.signature-york h3{
+    font-size: 64px;
+    line-height: 86px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+.hero-text.signature-york h6{
+    font-size: 24px;
+    line-height: 31px;
+}
+
 .liner{
     width: 200px;
-    height: 6px;
+    height: 5px;
     display: inline-block;
+	margin-top: 10px;
+        margin-bottom: 20px;
 }
 .liner-small{
     width: 100px;
     height: 2px;
     display: inline-block;
+	margin-top: 10px;
+        margin-bottom: 10px;
 }
+
 
 .color-bg {
   background-color: #3498db;
@@ -94,6 +111,22 @@ div#preloader.signature-rein.fluidview {
 }
 .color4 {
   color: #db7734;
+}
+
+
+.project-spec.signature-york{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.project-spec.signature-york li{
+  padding: 10px 0;
+  border-top: solid 1px #eee;
+  font-size: 12px;
+  line-height: 24px;
+}
+.project-spec.signature-york li:last-child{
+  border-bottom: solid 1px #eee;
 }
 
 /* 2. Header
@@ -564,3 +597,68 @@ section.mastwrap.top-spaced {
 .super-heading .text-rotator{
     display: inline-block;
 }
+
+/*Additional Helper Calsses*/
+
+.add-top {
+    margin-top: 160px;
+}
+
+.add-top-half {
+    margin-top: 80px;
+}
+
+.add-top-quarter {
+    margin-top: 40px;
+}
+
+.add-bottom {
+    margin-bottom: 160px;
+}
+
+.add-bottom-half {
+    margin-bottom: 80px;
+}
+
+.add-bottom-quarter {
+    margin-bottom: 40px;
+}
+
+.pad {
+    padding: 60px;
+}
+
+.pad-top {
+    padding-top: 160px;
+}
+
+.pad-top-half {
+    padding-top: 80px;
+}
+
+.pad-top-quarter {
+    padding-top: 40px;
+}
+
+.pad-bottom {
+    padding-bottom: 160px;
+}
+
+.pad-bottom-half {
+    padding-bottom: 80px;
+}
+
+.pad-bottom-quarter {
+    padding-bottom: 40px;
+}
+
+.pad-left-half {
+    padding-left: 60px;
+}
+.pad-left-quarter {
+    padding-left: 30px;
+}
+.remove-top {
+    margin-top: 0 !important;
+}
+
