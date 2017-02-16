@@ -326,6 +326,15 @@ p {
     width:100%;
 }
 
+.box .content:hover img{
+    opacity:.3;
+}
+
+.box .content:hover .content-hover{
+    opacity:1;
+    filter: alpha(opacity=50);
+}
+
 .box .content-hover{
     position:absolute;
     width: calc(100% - 30px);
@@ -334,11 +343,6 @@ p {
     background-color: none;
     z-index:1000;
     opacity:0;
-}
-
-.box .content-hover:hover{
-    opacity:.5;
-    filter: alpha(opacity=50);
 }
 
 .box .box-line{
