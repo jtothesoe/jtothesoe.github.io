@@ -327,7 +327,7 @@ p {
 }
 
 .box .content:hover img{
-    opacity:.3;
+    opacity:0;
 }
 
 .box .content:hover .content-hover{
