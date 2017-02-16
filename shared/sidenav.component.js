@@ -22,7 +22,7 @@ ko.components.register('sidenav', {
                         <li><a href="https://www.linkedin.com/in/jessicasoe/"><i class="fa fa-linkedin"></i></a></li>\
                         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>\
                         <li><a href="https://www.instagram.com/eossoe/"><i class="fa fa-instagram"></i></a></li>\
-                        <li><a href="#"><i class="fa fa-envelope-o"><i class="mailto:jsoe@design.upenn.edu"></i></a></li>\
+                        <li><a href="mailto:jsoe@design.upenn.edu"><i class="fa fa-envelope-o"></i></a></li>\
                     </ul>\
                 </div>\
                 <div style="width:100%">\  <a>2017 ©  Jessica Soe </a> </div>\
