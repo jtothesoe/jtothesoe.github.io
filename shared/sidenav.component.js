@@ -40,13 +40,13 @@ ko.components.register('box', {
         this.projectUrl = params.projectUrl;
     },
     template:
-    '<a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" data-bind="id:id, tag:tags, href:projectUrl">\
+    '<a class="col-sm-12 col-md-6 col-lg-4 col-xl-3 box" data-bind="attr:{id:id, tag:tags, href:projectUrl}">\
         <div class="content">\
             <div class="content-hover">\
-                <h4 class="font2" data-bind="value:title"></h4>\
+                <h4 class="font2" data-bind="text:title"></h4>\
                 <div class="box-line" style="padding-bottom:25px"></div>\
                 <h5>\
-                    <div class="padding-top:25px" data-bind="value:description">\
+                    <div class="padding-top:25px" data-bind="text:description">\
                     </div>\
                 </h5>\
             </div>\
