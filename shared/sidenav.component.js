@@ -14,7 +14,7 @@ ko.components.register('sidenav', {
                 <img src="http://i.imgur.com/P5PGQOj.png?4" alt="logo" style="width:50px;height:102px;" align="middle" hspace"5">\
             </div>\
             <div class="col-12 link-container">\
-                <div class="flex-container" style="width:100%; flex-direction:row" data-bind="foreach: navItem"><div><a style="color:3498db" data-bind="attr:{href: url}, text: text"></a></div></div>\
+                <div class="flex-container" style="width:100%; flex-direction:row" data-bind="foreach: navItem"><div><a style="color:#3498db" data-bind="attr:{href: url}, text: text"></a></div></div>\
             </div>\
             <div class="col-12 link-container" style="flex-direction:column-reverse !important">\
                 <div class="social-profile">\
