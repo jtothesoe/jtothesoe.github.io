@@ -1,4 +1,4 @@
-ko.components.register('box-component', {
+ko.components.register('box', {
     viewModel: function (params) {
         this.id = ko.observable(params.id);
         this.tags = ko.observable(params.tags);
