@@ -1,36 +1,36 @@
-$(document).ready(function() {
+$(document).ready(function () {
     setBoxHeight();
     setBackgroundTextHeight();
 });
 
-$(window).on('resize', function(){
+$(window).on('resize', function () {
     setBoxHeight();
     setBackgroundTextHeight();
 });
 
-function setBoxHeight(){
-    $(".box").each(function(){
-            $(this).height($(this).width());
-        })
+function setBoxHeight() {
+    $(".box").each(function () {
+        $(this).height($(this).width());
+    })
 }
 
-function setBackgroundTextHeight(){
+function setBackgroundTextHeight() {
     $("#background-text-spacer").height($("#background-text-area").height());
 }
 
-function filterBox(filter){
+function filterBox(filter) {
     console.log(filter);
-    if(filter === undefined){
-        $(".box").each(function(){
-            $(this).css("display","block");
+    if (filter === undefined) {
+        $(".box").each(function () {
+            $(this).css("display", "block");
         })
     }
-    else{
-        $(".box").each(function(){
-            if($(this).attr("tag").toLowerCase().indexOf(filter)>=0){
+    else {
+        $(".box").each(function () {
+            if ($(this).attr("tag").toLowerCase().indexOf(filter) >= 0) {
                 $(this).css("display", "block");
             }
-            else{
+            else {
                 $(this).css("display", "none");
             }
         })

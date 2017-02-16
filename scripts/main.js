@@ -6,9 +6,9 @@
  */
 /*global $:false */
 /*global window: false */
-(function() {
+(function () {
     "use strict";
-    $(function($) {
+    $(function ($) {
 
         //Detecting viewpot dimension
         var vH = $(window).height();
@@ -19,22 +19,22 @@
         $('.halfwidth').css('width', vW / 2);
         $('.halfheight').css('height', vH / 2);
         //Mobile Only Navigation (multi level)
-                $('ul.slimmenu').slimmenu({
-                    resizeWidth: '1200',
-                    collapserTitle: '',
-                    easingEffect: 'easeInOutQuint',
-                    animSpeed: 'medium',
-                });
+        $('ul.slimmenu').slimmenu({
+            resizeWidth: '1200',
+            collapserTitle: '',
+            easingEffect: 'easeInOutQuint',
+            animSpeed: 'medium',
+        });
 
-                $('.slimmenu li a:not(.sub-collapser)').on('click',function(){
-                            $('ul.slimmenu').removeClass('expanded').slideUp();
-                });
+        $('.slimmenu li a:not(.sub-collapser)').on('click', function () {
+            $('ul.slimmenu').removeClass('expanded').slideUp();
+        });
 
 
         //PRELOADER
         $('body, html').addClass('preloader-running');
         $('#mastwrap').css('visibility', 'hidden');
-        $(window).load(function() {
+        $(window).load(function () {
             $("#status").fadeOut();
             $("#preloader").delay(1000).fadeOut(1000);
             $('body, html').removeClass('preloader-running');
@@ -43,58 +43,57 @@
                 'visible');
         });
 
-//Sub Menu Trigger
-        $('.main-menu li a.sub-menu-trigger').on('mouseenter', function(){
+        //Sub Menu Trigger
+        $('.main-menu li a.sub-menu-trigger').on('mouseenter', function () {
             $(this).next('.sub-menu').stop().slideDown(1000);
         });
-        $('.main-menu li').on('mouseleave', function(){
+        $('.main-menu li').on('mouseleave', function () {
             $('.sub-menu').stop().slideUp(1000);
         });
 
 
-//Main Menu Trigger
-        (function( $ ){
-           $.fn.menuPanelTrigger = function() {
-                if($(".mastnav-inner-left").hasClass("slide-to-left"))
-                {
+        //Main Menu Trigger
+        (function ($) {
+            $.fn.menuPanelTrigger = function () {
+                if ($(".mastnav-inner-left").hasClass("slide-to-left")) {
                     $('.mastnav').fadeOut();
                     $('.mastnav-inner-left').removeClass("slide-to-left");
                     $('.mastnav-inner-right').removeClass("slide-to-right");
                 }
-                else{
+                else {
                     $('.mastnav').fadeIn();
                     $('.mastnav-inner-left').addClass("slide-to-left");
                     $('.mastnav-inner-right').addClass("slide-to-right");
                 }
-           }; 
-        })( jQuery );
-        $('.mastnav-inner-left').on('click', function(event){
+            };
+        })(jQuery);
+        $('.mastnav-inner-left').on('click', function (event) {
             event.preventDefault();
             $().menuPanelTrigger();
         });
-        $('a.menu-trigger, .menu-close-notification a').on('click', function(event){
+        $('a.menu-trigger, .menu-close-notification a').on('click', function (event) {
             event.preventDefault();
             $().menuPanelTrigger();
         });
-        $('.mastwrap').on('click', function(){
+        $('.mastwrap').on('click', function () {
             $('.mastnav').removeClass("slide-to-left");
         });
 
 
         $('.first-fold').next().waypoint(function (direction) {
-              if (direction === 'down') {
+            if (direction === 'down') {
                 $('.masthead').addClass('header-highlighted');
-              } 
-              else {
+            }
+            else {
                 $('.masthead').removeClass('header-highlighted');
-              }
+            }
         }, { offset: '35%' });
 
 
         //PARALLAX
         //Initialize Each Parallax Layer  
         function parallaxInit() {
-            $('.parallax, .parallax-layer').each(function() {
+            $('.parallax, .parallax-layer').each(function () {
                 $(this).parallax("1%", 0.1);
             });
         }
@@ -102,7 +101,7 @@
         if (!device.tablet() && !device.mobile()) {
 
             //Activating Parallax effect if non-mobile device is detected
-            $(window).bind('load', function() {
+            $(window).bind('load', function () {
                 parallaxInit();
             });
 
@@ -117,18 +116,18 @@
 
 
 
-        
-//ISOTOPE
-        
+
+        //ISOTOPE
+
         //ISOTOPE GLOBALS
         var $container = $('.works-container');
 
 
         //ISOTOPE INIT
-        $(window).load(function() {
+        $(window).load(function () {
 
-           //checking if all images are loaded
-            $container.imagesLoaded( function() {
+            //checking if all images are loaded
+            $container.imagesLoaded(function () {
 
                 //init isotope once all images are loaded
                 $container.isotope({
@@ -140,13 +139,13 @@
 
 
                 //forcing a perfect masonry layout after initial load
-                setTimeout(function() {
-                $container.isotope('layout');
+                setTimeout(function () {
+                    $container.isotope('layout');
                 }, 100);
 
 
                 // triggering filtering
-                $('.works-filter li a').on('click', function() {
+                $('.works-filter li a').on('click', function () {
                     $('.works-filter li a').removeClass(
                         'active');
                     $(this).addClass('active');
@@ -160,12 +159,12 @@
 
 
                 //Isotope ReLayout on Window Resize event.
-                $(window).on('resize', function() {
+                $(window).on('resize', function () {
                     $container.isotope('layout');
                 });
 
                 //Isotope ReLayout on device orientation changes
-                window.addEventListener("orientationchange", function() {
+                window.addEventListener("orientationchange", function () {
                     $container.isotope('layout');
                 }, false);
 
@@ -178,126 +177,124 @@
 
 
 
-//CAROUSEL
- $(".home-carousel").owlCarousel({
-                    loop:true,
-                    margin:0,
-                    dots:false,
-                    nav:true,
-                    navText: false,
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:2
-                        },
-                        1000:{
-                            items:3
-                        }
-                    }
-                });
- $(".project-carousel").owlCarousel({
-                    loop:true,
-                    margin:0,
-                    dots:false,
-                    nav:true,
-                    navText: false,
-                    responsive:{
-                        0:{
-                            items:1
-                        },
-                        600:{
-                            items:1
-                        },
-                        1000:{
-                            items:1
-                        }
-                    }
-                });
-
- $(".client-carousel").owlCarousel({
-                    loop:true,
-                    margin:0,
-                    dots:true,
-                    nav:false,
-                    navText: false,
-                    responsive:{
-                        0:{
-                            items:2
-                        },
-                        600:{
-                            items:3
-                        },
-                        1000:{
-                            items:5
-                        }
-                    }
-                });
-
-
-//Text Ticker
- $(window).load(function(){
-        $('.text-rotator').each(function(){
-            
-            var text_rotator_content = $(this).html();
-            $(this).empty();
-            $(this).html('<div class="rotator-wrap"></div>')
-            var this_item = $(this).children('.rotator-wrap');
-            var text_rotator_content_split = text_rotator_content.split(',');
-            var item_size = text_rotator_content_split.length;
-            nova_text_rotator(text_rotator_content_split, this_item, item_size);
+        //CAROUSEL
+        $(".home-carousel").owlCarousel({
+            loop: true,
+            margin: 0,
+            dots: false,
+            nav: true,
+            navText: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
         });
-        
-        function nova_text_rotator(item_array, this_item, item_size, my_index){
-            
-            if(my_index == undefined)
-                var my_index = -1;
-
-            my_index++
-
-            if(my_index < item_size)
-            {
-
-                this_item.fadeOut(800, function(){
-                    this_item.html('<span>'+ item_array[my_index] +'</span>');
-                    this_item.fadeIn(800);
-                    
-                });
+        $(".project-carousel").owlCarousel({
+            loop: true,
+            margin: 0,
+            dots: false,
+            nav: true,
+            navText: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
             }
-            else
-            {
-                my_index = -1;
-            }
-
-            setTimeout(function() {
-                 nova_text_rotator(item_array, this_item, item_size, my_index);
-            }, 2500);
-        }
-    });  
-
-
-
-//VENOBOX
-    $('.venobox, .image-lightbox-link').venobox({
-        numeratio: true,
-        infinigall: true
-    });   
-        
-
- //SKILLS
-    $('.skills').waypoint(function(direction) {
-        $('.progress-bar').each(function() {
-            var progressValue = $(this).attr('data-skills-value');
-            $(this).animate({
-                            width: progressValue+"%"
-                            }, 2500);
         });
 
-    }, { offset: '25%' });
+        $(".client-carousel").owlCarousel({
+            loop: true,
+            margin: 0,
+            dots: true,
+            nav: false,
+            navText: false,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        });
 
 
- //PARALLAX
+        //Text Ticker
+        $(window).load(function () {
+            $('.text-rotator').each(function () {
+
+                var text_rotator_content = $(this).html();
+                $(this).empty();
+                $(this).html('<div class="rotator-wrap"></div>')
+                var this_item = $(this).children('.rotator-wrap');
+                var text_rotator_content_split = text_rotator_content.split(',');
+                var item_size = text_rotator_content_split.length;
+                nova_text_rotator(text_rotator_content_split, this_item, item_size);
+            });
+
+            function nova_text_rotator(item_array, this_item, item_size, my_index) {
+
+                if (my_index == undefined)
+                    var my_index = -1;
+
+                my_index++
+
+                if (my_index < item_size) {
+
+                    this_item.fadeOut(800, function () {
+                        this_item.html('<span>' + item_array[my_index] + '</span>');
+                        this_item.fadeIn(800);
+
+                    });
+                }
+                else {
+                    my_index = -1;
+                }
+
+                setTimeout(function () {
+                    nova_text_rotator(item_array, this_item, item_size, my_index);
+                }, 2500);
+            }
+        });
+
+
+
+        //VENOBOX
+        $('.venobox, .image-lightbox-link').venobox({
+            numeratio: true,
+            infinigall: true
+        });
+
+
+        //SKILLS
+        $('.skills').waypoint(function (direction) {
+            $('.progress-bar').each(function () {
+                var progressValue = $(this).attr('data-skills-value');
+                $(this).animate({
+                    width: progressValue + "%"
+                }, 2500);
+            });
+
+        }, { offset: '25%' });
+
+
+        //PARALLAX
         //Initialize Each Parallax Layer  
         function parallaxInit() {
             $.stellar({
@@ -308,7 +305,7 @@
         if (!device.tablet() && !device.mobile()) {
 
             //Activating Parallax effect if non-mobile device is detected
-            $(window).bind('load', function() {
+            $(window).bind('load', function () {
                 parallaxInit();
             });
 
@@ -318,7 +315,7 @@
             //Dectivate Parallax effect if mobile device is detected (bg image is displayed)
             $('.parallax, .parallax-layer').addClass('no-parallax');
 
-        }   
+        }
 
 
 
