@@ -6,7 +6,6 @@
 .project-detail-list{
     list-style: none;
     font-size: 12px;
-    margin-top: 20px;
     margin-left: 40px;
     width: 80%;
 }
@@ -15,7 +14,7 @@
     border-bottom: thin solid;
     border-color: lightgrey;
     line-height: 20px;
-    line-height: 20px; 
+    margin-top: 20px; 
     padding-bottom: 40px;
 }
 
