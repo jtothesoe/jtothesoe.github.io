@@ -13,7 +13,6 @@
     border-bottom: thin solid;
     border-color: lightgrey;
     margin-top: 20px;
-    margin-left: 0px;
     line-height: 20px; 
     padding-bottom: 40px;
 }
@@ -25,7 +24,7 @@
 .project-detail-text{
     font-size:14px;
     padding-top: 20px;
-    width: 80%;
+    width: auto;
 }
 
 
