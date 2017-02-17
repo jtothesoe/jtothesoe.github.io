@@ -6,17 +6,17 @@
 .project-detail-list{
     list-style: none;
     font-size: 12px;
-   
-}
-
-.project-detail-list li{
-    border-bottom: thin solid;
-    border-color: lightgrey;
     margin-top: 20px;
     margin-left: 40px;
     line-height: 20px; 
     padding-bottom: 40px;
     width: 80%;
+}
+
+.project-detail-list li{
+    border-bottom: thin solid;
+    border-color: lightgrey;
+ 
 }
 
 .project-detail-list p{
