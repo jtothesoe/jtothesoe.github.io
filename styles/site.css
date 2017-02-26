@@ -434,7 +434,7 @@ p {
 .header-left .social-profile > li {
   float: left;
   margin-left: 0;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 .flay-menu-wrapper{
   display: none;
