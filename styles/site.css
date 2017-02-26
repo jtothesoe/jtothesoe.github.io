@@ -594,6 +594,12 @@ section.mastwrap.top-spaced {
 .font4 {
   font-family: 'Playfair Display', serif;
 }
+.font5 {
+  font-family: 'Libre Baskerville', serif;
+}
+.font6 {
+  font-family: 'Nunito Sans', serif;
+}
 
 .super-heading{
     font-size: 80px;
