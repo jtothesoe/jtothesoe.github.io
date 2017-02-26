@@ -282,8 +282,8 @@ p {
 
 .sidebar .social-profile{
     position: absolute;
-    bottom: 30px;
-    left: 50%;
+    bottom: 0px;
+    left: 0%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 100%;
