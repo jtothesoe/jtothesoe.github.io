@@ -3,7 +3,7 @@ ko.components.register('sidenav', {
         // Data: value is either null, 'like', or 'dislike'
         this.navItem = ko.observable([
             { text: 'home', url: '/index.html' },
-            { text: 'about', url: '/portfolio.html' },
+            { text: 'about', url: '/about.html' },
             { text: 'contact', url: '/' }
         ]);
         // Behaviors
