@@ -228,7 +228,7 @@ ul {
 }
 li { list-style: none }
 p {
-    font-size: 12px;
+    font-size: 22px;
     font-weight: normal;
     line-height: 24px;
     color: #626262;
@@ -691,6 +691,3 @@ section.mastwrap.top-spaced {
 .margin-5{height:5em}#content 
 .margin-6{height:6em}
 .container-boxes{padding-top:30px}
-
-
-
