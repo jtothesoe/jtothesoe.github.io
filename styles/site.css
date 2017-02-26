@@ -282,8 +282,8 @@ p {
 
 .sidebar .social-profile{
     position: absolute;
-    bottom: 0px;
-    left: 0%;
+    bottom: 30px;
+    left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 100%;
@@ -434,7 +434,7 @@ p {
 .header-left .social-profile > li {
   float: left;
   margin-left: 0;
-  margin-right: 0px;
+  margin-right: 10px;
 }
 .flay-menu-wrapper{
   display: none;
