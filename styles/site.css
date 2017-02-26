@@ -151,14 +151,14 @@ header.masthead.signature-rein {
 }
 
 
-
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Droid Serif', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 1px;
-	background-color: #eaeaea;
+	line-height: 32px;
+	background-color: #f5f8fa;
 }
 
 a:focus,
