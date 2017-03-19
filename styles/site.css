@@ -44,7 +44,7 @@ div#preloader.signature-rein.fluidview {
 
 
 .tabset a { font-family: Roboto; font-weight: 700; letter-spacing: 3px; }
-.menu-link { font-family: Roboto; font-size: 14px; font-weight: 400; font-style: normal; } 
+.menu-link { font-family: Roboto; font-size: 14px; font-weight: 400; font-style: normal; }
 .burger .btn-txt { font-family: Roboto; font-weight: 400; font-style: normal;}
 
 .medium-heading{
@@ -182,10 +182,10 @@ button {
   outline: medium none;
   color: #4FC1F0;
 }
-.uppercase { 
+.uppercase {
     text-transform: uppercase;
 }
-.capitalize { 
+.capitalize {
     text-transform: capitalize;
 }
 h1,
@@ -200,7 +200,7 @@ h2 a,
 h3 a,
 h4 a,
 h5 a,
-h6 a { 
+h6 a {
     color: inherit;
 }
 h1 {
@@ -305,10 +305,10 @@ p {
     text-transform: uppercase;
 }
 .nav-bar{
-    position:absolute; 
-    left:50%; 
-    margin-left:-25px; 
-    width:50px; 
+    position:absolute;
+    left:50%;
+    margin-left:-25px;
+    width:50px;
     border-bottom:solid thin;
 }
 
@@ -428,7 +428,9 @@ p {
   color: #888888;
 }
 .sidebar li i {
-  margin-left: 6px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .sidebar > li > ul {
   border-left: 1px solid #e5e5e5;
@@ -560,7 +562,7 @@ section.mastwrap.top-spaced {
 .hero h1 span{
     font-size: 146px;
     line-height: 146px;
-    border-bottom: solid 12px; 
+    border-bottom: solid 12px;
 }
 
 /*HOME*/
@@ -572,7 +574,7 @@ section.mastwrap.top-spaced {
 .cd-headline.rotate-2 b{
     font-weight: normal;
 }
-.cd-headline{    
+.cd-headline{
     font-size: 80px;
     line-height: 90px;
     margin-bottom: 20px;
@@ -684,10 +686,10 @@ section.mastwrap.top-spaced {
 }
 
 
-.margin-1{height:1em}#content 
-.margin-2{height:2em}#content 
-.margin-3{height:3em}#content 
-.margin-4{height:4em}#content 
-.margin-5{height:5em}#content 
+.margin-1{height:1em}#content
+.margin-2{height:2em}#content
+.margin-3{height:3em}#content
+.margin-4{height:4em}#content
+.margin-5{height:5em}#content
 .margin-6{height:6em}
 .container-boxes{padding-top:30px}
