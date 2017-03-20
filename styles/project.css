@@ -20,6 +20,10 @@
 
 }
 
+.project-detail-list li:first-child{
+    padding-top: 0px;
+}
+
 .project-detail-list p{
     letter-spacing: 5px;
 }
@@ -27,8 +31,4 @@
 .project-detail-text{
     font-size:14px;
     padding-top: 20px;
-}
-
-.top-list{
-  padding-top: 0;
 }
