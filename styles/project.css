@@ -1,6 +1,6 @@
-.project-title {
-    font-family: Roboto;
-}
+/* .project-title {
+    font-family: Nunito Sans;
+}                       */ 
 
 
 .project-detail-list{
@@ -17,7 +17,7 @@
     line-height: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
-
+   /* spacing inbetween class,date,tools */ 
 }
 
 .project-detail-list li:first-child{
@@ -32,3 +32,5 @@
     font-size:14px;
     padding-top: 20px;
 }
+/* spacing on top of titles */ 
+
