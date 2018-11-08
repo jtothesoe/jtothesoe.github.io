@@ -1,0 +1,108 @@
+page-login {
+    
+    ion-input {
+        border-radius: 10px;
+        margin-bottom: 10px;
+        -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.5);
+        box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.5);
+    }
+
+    #content-holder{
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .logo-holder{
+        position: absolute;
+        width: 100%;
+        top: 10%;
+        height: 50px;
+        margin: 0px auto;
+        margin-bottom: 15%;
+        background-image: url('../assets/imgs/logo_Pygg.svg');
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+
+    #login-text {
+        position: absolute;
+        top: 24%;
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    #input-fields {
+        position: absolute;
+        top: 40%;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 14px;
+        color: white;
+        font-weight: 500;
+    }
+
+    #login-button {
+        position: absolute;
+        top: 56%;
+        text-align: center;
+        width: 76%;
+        height: 60px;
+        border-radius: 60px;
+        margin-top: 5%;
+        margin-left: 12%;
+        background-color: #16e1d0;
+        color: black;
+        font-size: 18px;
+        font-weight: 200;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      #svg-holder {
+          position: absolute;
+          width: 70%;
+          margin-left: 15%;
+          height: 0%;
+          bottom: 0;
+
+      }
+
+      #speech-bubble {
+          position: absolute;
+          color: black;
+          background-color: white;
+          border-radius: 40px;
+          width: 60%;
+          margin-left: 30%;
+          bottom: 20%;
+          text-align: center;
+          padding: 10px;
+          font-size: 12px;
+          font-weight: 500;
+          opacity: 0;
+      }
+
+      #speech-bubble:after {
+        content: "";
+        position: absolute;
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        bottom: -10px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: white;
+        left: 50%;
+      }
+
+
+}

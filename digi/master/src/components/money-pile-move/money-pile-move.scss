@@ -1,0 +1,43 @@
+money-pile-move {
+
+    .bucket-text{
+        text-align: center;
+        width: 50%;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #spend-bucket-text{
+        position: absolute;
+        top: 40%;
+        left: 0%;
+    }
+
+    #save-bucket-text{
+        position: absolute;
+        top: 40%;
+        right: 0%;
+    }
+
+    #give-bucket-text{
+        position: absolute;
+        top: 73%;
+        left: 0%;
+    }
+
+    #invest-bucket-text{
+        position: absolute;
+        top: 73%;
+        right: 0%;
+    }
+
+    .bucket-dollar-amount{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    canvas {
+        position: fixed;
+        top: 0px;
+    }
+}

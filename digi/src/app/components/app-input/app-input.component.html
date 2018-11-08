@@ -1,0 +1,16 @@
+<div text-center id="input-container">
+
+    <input type={{type}} placeholder={{placeholder}}
+    class="font-weight" [ngModel]="value"
+    (ngModelChange)="onChange($event)"
+    [ngStyle]="styles" *ngIf="type !== 'textArea'">
+
+    <textarea name="" id="" cols="30" rows="8" 
+        *ngIf="type === 'textArea'" 
+        placeholder={{placeholder}} 
+        class="font-weight" [ngModel]="value"
+        [ngStyle]="styles"
+        (ngModelChange)="onChange($event)">
+    </textarea>
+    
+</div>

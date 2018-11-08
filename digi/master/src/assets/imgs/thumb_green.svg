@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="47px" viewBox="0 0 43 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Child---Budget" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Child-/-Budget-/-Savings-detail-Copy" transform="translate(-149.000000, -527.000000)">
+            <g id="Item-Copy-2" transform="translate(1.000000, 497.000000)">
+                <g id="Button" transform="translate(113.000000, 30.000000)">
+                    <circle id="Oval-8" fill="#07A497" cx="56.5" cy="25.5" r="21.5"></circle>
+                    <circle id="Oval-8-Copy" fill="#16E1D0" cx="56.5" cy="21.5" r="21.5"></circle>
+                    <circle id="Oval-8-Copy" fill="#FFFFFF" cx="56.5" cy="21.5" r="14.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

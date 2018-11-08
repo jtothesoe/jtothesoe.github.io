@@ -1,0 +1,24 @@
+<ion-header no-border>
+
+    <ion-toolbar mode="md" transparent>
+      <ion-title mode="md">Money Transfer</ion-title>
+    </ion-toolbar>
+  
+  </ion-header>
+  
+  
+<ion-content class="kid_gradient" fullscreen no-bounce >
+  
+  <app-progression text-center [completed]="2" [maxProgressionLength]="4" ></app-progression>
+
+  <app-header-text [text]="header.text" [textStyle]="header.textStyle"></app-header-text>
+
+  <app-input [placeholder]="input.placeholder" 
+  [type]="input.type"
+  [styles]="input.styles"
+  (inputEvent)="input.function($event)">
+  </app-input>
+
+  <app-button text-center  [text]="nextButton.text" (click)="next()"></app-button>
+
+</ion-content>

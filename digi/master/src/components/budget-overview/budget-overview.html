@@ -1,0 +1,51 @@
+<!-- Generated template for the BudgetOverviewComponent component -->
+<div id="budgetOverviewContent" class="bg">
+  <div id="canvasHolder">
+    <svg id="svgCanvas" x="0" y="0" [attr.width]="svgWidth" [attr.height]="svgHeight" attr.viewBox="0 0 {{svgWidth}} {{svgHeight}}">
+      <defs>
+        <linearGradient id="shadowfade" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:.15" />
+          <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0" />
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+  <div id="monthlyBudget" class="descriptionSection">
+    <div id="edit-button" (click)="edit_button_click_handler()">Edit Budget</div>
+    <balance-title [title]="'My monthly budget'" [amount]="totalBudget"></balance-title>
+    <div class="warning" *ngIf="maxBudget > totalBudget">You have ${{maxBudget - totalBudget}} left over!</div>
+</div>
+
+<div id="slide-container">
+  <ion-slides id="category-slides" pager="false" slidesPerView="1.5" spaceBetween="5" centeredSlides=true loop=false (ionSlideDidChange)="slideChanged()"
+    (ionSlideWillChange)="slideWillChange()">
+    <ion-slide *ngFor="let category of childData.categories">
+      <div class="categoryCard">
+        <div id="categoryName">{{category.name}}</div>
+        <div id="budgeted-amount">
+          <div>
+            <sup>$</sup>{{category.budgeted | number:'1.2-2'}}</div>
+        </div>
+        <!--div class="progress-bar"></div-->
+        <div class="detail-button">Details</div>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</div>
+
+<div id="budget-sliders-container">
+
+  <div class="slider-holder" *ngFor="let category of childData.categories" [ngSwitch]="category.name">
+    <div class="slider-title">{{category.name}}</div>
+    <div class="slider-amount">${{category.budgeted}}</div>
+    <input *ngSwitchCase="'spending money'" name="yellow" type="range" min="1" max="100" value="50" class="slider">
+    <input *ngSwitchCase="'saving'" name="pink" type="range" min="1" max="100" value="50" class="slider slider-pink">
+    <input *ngSwitchCase="'investing'" name="red" type="range" min="1" max="100" value="50" class="slider slider-red">
+    <input *ngSwitchCase="'sharing'" name="green" type="range" min="1" max="100" value="50" class="slider slider-green">
+  </div>
+
+
+  <div id="save-button" (click)="save_button_click_handler()">Save Budget</div>
+
+
+</div>

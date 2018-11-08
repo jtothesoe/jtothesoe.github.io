@@ -1,0 +1,25 @@
+<!--
+  Generated template for the CreateGoalDatePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+    <ion-toolbar mode="md" transparent>
+      <ion-title mode="md">Money Transfer</ion-title>
+    </ion-toolbar>
+  
+  </ion-header>
+  
+  
+<ion-content class="kid_gradient" fullscreen no-bounce >
+
+  <app-progression text-center [completed]="3" [maxProgressionLength]="4" ></app-progression>
+
+  <app-header-text [text]="header.text" [textStyle]="header.styles"></app-header-text>
+
+  <simple-calendar [styles]="calendar.styles" (dateSelectionEvent)="getSelectedDate($event)" ></simple-calendar>
+
+  <app-button text-center  [text]="nextButton.text" (click)="next()" ></app-button>
+</ion-content>

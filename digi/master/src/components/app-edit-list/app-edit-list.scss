@@ -1,0 +1,50 @@
+app-edit-list {
+    
+    ion-grid{
+        margin-bottom: 20px;    
+        border-bottom: 1px solid rgba(#bdc3c7, 0.2);
+
+        ion-row{
+            padding: 0px;
+            margin: 0px;
+            
+    
+            .edit-list-container{
+                background-color: white;
+                margin: 0;
+                border-top: 1px solid rgba(#bdc3c7, 0.3);
+                z-index: 200;
+                height: 80px;
+                line-height: 80px;
+    
+                .key-left{
+                    margin-left: 10px;
+                }
+            
+                .value-right{
+                    margin-left: 1px;
+                    font-weight: bolder;
+                    color: #16E1D0;
+                }
+            }
+    
+            .button{
+                text-align: center;
+                color: white;
+                font-size: 20px;
+            }
+    
+            #edit{
+                background-color: #16E1D0;
+                text-align: center;
+            }
+    
+            #delete{
+                background-color: #EA4DC3;
+            }
+            
+        }
+    }
+    
+   
+}

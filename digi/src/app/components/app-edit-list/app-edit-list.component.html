@@ -1,0 +1,40 @@
+<!-- Generated template for the AppEditListComponent component -->
+
+<ion-grid>
+
+    <ion-row  *ngFor="let data of dataSet" class="font-weight ">
+
+        <ion-col col-8 class="edit-list-container" *ngIf="canDelete && data.edit">
+                <span class="key-left">{{data.key}}</span>
+                <span class="value-right" *ngIf="data.format === 'date'">{{data.value | date}}</span>
+                <span class="value-right" *ngIf="data.format === 'currency'">{{data.value | currency}}</span>
+                <span class="value-right" *ngIf="!data.format">{{data.value}}</span> 
+        </ion-col>
+
+        <ion-col col-10 class="edit-list-container" *ngIf="!canDelete && data.edit">
+                <span class="key-left">{{data.key}}</span>
+                <span class="value-right" *ngIf="data.format === 'date'">{{data.value | date}}</span>
+                <span class="value-right" *ngIf="data.format === 'currency'">{{data.value | currency}}</span>
+                <span class="value-right" *ngIf="!data.format">{{data.value}}</span> 
+        </ion-col>
+
+        <ion-col col-12 class="edit-list-container" *ngIf="data.edit === false">
+                <span class="key-left">{{data.key}}</span>
+                <span class="value-right" *ngIf="data.format === 'date'">{{data.value | date}}</span>
+                <span class="value-right" *ngIf="data.format === 'currency'">{{data.value | currency}}</span>
+                <span class="value-right" *ngIf="!data.format">{{data.value}}</span> 
+        </ion-col>
+
+        <ion-col class="edit-list-container button" id="edit" (click)="edit(data.id)" *ngIf="data.edit === true">
+            <ion-icon name="create"></ion-icon>
+        </ion-col>
+
+        <ion-col class="edit-list-container button" id="delete" *ngIf="canDelete">
+            <ion-icon name="close"></ion-icon>
+        </ion-col>
+
+      </ion-row>
+
+</ion-grid>
+    
+

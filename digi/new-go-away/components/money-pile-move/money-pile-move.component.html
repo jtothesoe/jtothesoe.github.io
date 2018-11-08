@@ -1,0 +1,9 @@
+<div> 
+<account-detail [balance]="childData.balance" title="Balance"></account-detail>
+<canvas (touchstart)="fromSelect($event)" (touchend)="toSelect($event)" (touchmove)="touchMove($event)" [width]=canvasWidth [height]=canvasHeight id="transactionCanvas"></canvas>
+<div id="spend-bucket-text" class="bucket-text">Spending:<br/><span class="bucket-dollar-amount">${{childData.buckets[0].total | number:'1.2-2'}}</span></div>
+<div id="save-bucket-text" class="bucket-text">Savings:<br/><span class="bucket-dollar-amount">${{childData.buckets[1].total | number:'1.2-2'}}</span></div>
+<div id="give-bucket-text" class="bucket-text">Giving:<br/><span class="bucket-dollar-amount">${{childData.buckets[2].total | number:'1.2-2'}}</span></div>
+<div id="invest-bucket-text" class="bucket-text">Invest:<br/><span class="bucket-dollar-amount">${{childData.buckets[3].total | number:'1.2-2'}}</span></div>
+
+</div>

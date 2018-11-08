@@ -1,0 +1,27 @@
+.avatar-holder {
+  position: relative;
+  width: 113px;
+  height: 111px;
+  margin: 0px auto;
+}
+
+.av-image {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  border-radius: 80px;
+  width: 101px;
+  height: 101px;
+}
+
+.av-holder svg {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 113px;
+  height: 111px;
+}
+
+#oval_holder {
+  z-index: 1000;
+}

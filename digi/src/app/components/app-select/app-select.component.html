@@ -1,0 +1,11 @@
+<!-- Generated template for the AppSelectComponent component -->
+<div id="selection-container">
+  
+  <div *ngFor="let select of selections; let i = index" class="font-weight selection-repeat-container" (click)="updateSelected(i)">
+      <span>{{select.text}}</span>
+      <div class="selection-circle">
+        <img src="assets/imgs/circle_blob.svg" alt="" class="selection-select-circle" *ngIf="selectedIndex === i">
+      </div>
+  </div>
+
+</div>

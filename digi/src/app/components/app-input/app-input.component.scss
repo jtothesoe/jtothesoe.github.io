@@ -1,0 +1,24 @@
+app-input {
+    input{
+        /* Rectangle 3: */
+        background: #FFFFFF;
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        /* Enter amount: */
+
+        font-size: 20px;
+        letter-spacing: -0.29px;
+        padding: 20px;
+    }
+
+    textarea{
+        box-shadow: inset 0px 1px 3px 0px rgba(#000000, 0.5);
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(#95a5a6, 0.1);
+        padding: 20px;
+        font-size: 16px;
+    }
+}

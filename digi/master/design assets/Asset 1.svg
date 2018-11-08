@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 245 256" style="enable-background:new 0 0 245 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFA9EA;}
+	.st1{fill:#EA4DC3;}
+</style>
+<g id="Child-_-Account-_-Balance-Copy">
+	<g id="Group-28">
+		<g id="Group-3">
+			<g>
+				<path id="Fill-1" class="st0" d="M245,129c0,64-55,115-122,115S0,192,0,129S55,14,123,14S245,65,245,129"/>
+			</g>
+		</g>
+		<polygon id="Fill-4" class="st0" points="71,251 39,251 25,193 71,193 		"/>
+		<polygon id="Fill-8" class="st0" points="175,251 207,251 221,193 175,193 		"/>
+		<g id="left_ear">
+			<g>
+				<path id="Fill-12" class="st0" d="M75,27C57,4,31-6,18,4S8,39,25,62L75,27z"/>
+			</g>
+		</g>
+		<g id="right_ear">
+			<g>
+				<path id="Fill-15" class="st0" d="M166,27c18-23,44-33,57-23s10,36-7,59L166,27z"/>
+			</g>
+		</g>
+		<ellipse class="st1" cx="122.9" cy="132.9" rx="33.2" ry="31.2"/>
+		<path id="left_nostril" class="st0" d="M113,141c-5,0-9-3-9-8v-2c0-4,4-8,9-8s9,3,9,8v2C122,137,118,141,113,141"/>
+		<path id="right_nostril" class="st0" d="M135,141c-5,0-9-3-9-8v-2c0-4,4-8,9-8s9,3,9,8v2C144,137,140,141,135,141"/>
+	</g>
+</g>
+<ellipse id="left_eye" class="st1" cx="87.8" cy="74.5" rx="6.3" ry="6.3"/>
+<ellipse id="right_eye" class="st1" cx="157.9" cy="74.4" rx="6.3" ry="6.3"/>
+</svg>

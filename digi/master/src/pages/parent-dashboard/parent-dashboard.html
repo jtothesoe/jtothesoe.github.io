@@ -1,0 +1,38 @@
+<ion-header no-border>
+  <ion-toolbar mode="md" transparent>
+
+    <ion-title mode="md">My family</ion-title>
+
+    <button ion-button menuToggle end>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="parent_gradient" fullscreen no-bounce>
+  <div id="list-holder">
+
+    <div class="dashboard-card" *ngFor="let child of childData; let i = index" (tap)="viewChild(i)">
+
+      <avatar-image [image_url]="child.avatar ? child.avatar : placeholderAvatar"></avatar-image>
+      <!--div class="family-notification" *ngIf="updateCheck(child)"></div-->
+      <div class="child-info">
+        <div class="child-name">{{child.firstname}}</div>
+        <div class="subtitle">Account balance:</div>
+        <div class="child-balance">${{child.amount | number:'1.2-2'}}</div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Button is for transfer bucket to bucket 
+  <button id="cta" ion-button round large (click)="this.overlayService.updateOverlayState()">new transfer</button>
+  -->
+
+  <app-bottom-slide-tab (click)="triggerOverlay()" [text]="'Parent Resources'" [tabState]="tabState"></app-bottom-slide-tab>
+</ion-content>
+<!-- transfer bucket to bucket HTML -->
+  <overlay >
+    <app-icon-button id="close-overlay" [icon]="closeIcon.icon" [iconStyle]="closeIcon.iconStyle" [buttonStyle]="closeIcon.buttonStyle" (click)="triggerOverlay()" ></app-icon-button>
+    <flats [img]="flats.img" ></flats>  
+  </overlay>

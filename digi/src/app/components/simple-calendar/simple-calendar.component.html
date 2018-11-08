@@ -1,0 +1,32 @@
+<!-- Generated template for the MoneyTransferCalendarComponent component -->
+<div id="calendar-container" class="font-weight" [ngStyle]="styles">
+  <div id="calendar-header">
+
+      <i class="left-arrow" (click)="updateCalendar('down')" ></i>
+
+      <span>{{monthText}} {{currentYear}}</span>
+
+      <i class="right-arrow" (click)="updateCalendar('up')"></i>
+
+  </div>
+
+  <div id="calendar-dates">
+    <ion-grid>
+      <ion-row>
+          <ion-col col-2  *ngFor="let day of ['Mon','Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];" class="days-container" >
+            <span >{{day}}</span>  
+          </ion-col>
+        <ion-col col-2  *ngFor="let day of days; let i = index" class="days-container "  (click)="selectDate(i, day)">
+
+          <img src="assets/imgs/circle_blob.svg" alt="" class="circle" *ngIf="selectedDate == i">
+          <img src="assets/imgs/circle_blob_orbit.svg" alt="" class="circle" *ngIf="selectedDate == i">
+
+          <span [hidden]="day === 0" [ngClass]="{'gray-out' : grayOutDate(day)}">{{day}}</span>  
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</div>
+

@@ -1,0 +1,42 @@
+page-create-goal-confirm {
+    $img-container-height: 28%;
+    $img-container-width: 100%;
+
+    #confirm-image-container{
+        width: $img-container-width;
+        height: $img-container-height;
+        background-color: rgba(#FFF, 0.9);
+
+
+        #image-mask{
+            background-size: 500px;
+            background-position: 0;
+            filter:blur(3px);
+            background-repeat: no-repeat;
+            width: $img-container-width;
+            height: $img-container-height;
+            background-blend-mode: darken;
+            position: absolute !important;
+            top: 0 !important;
+            background-color: rgba(#000, 0.2);
+        }
+
+        #edit-icon{
+            position: absolute;
+            top: 3%;
+            right: 33%;
+            z-index: 199;
+        }
+    }
+
+    #edit-list{
+        margin-bottom: 20px;
+    }
+    
+    @media only screen and (min-height: 800px) {
+        #confirm-image-container{
+            height: 23%;
+        }
+    }
+    
+}

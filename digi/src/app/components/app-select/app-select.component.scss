@@ -1,0 +1,44 @@
+app-select {
+    $text-vertical-padding: 36px;
+    $text-hortizonal-padding: 30px;
+    $circle-size: 43px;
+    $border: 1px solid #A3A3A3;
+    
+
+    #selection-container{
+        border-bottom: $border;
+
+        .selection-repeat-container{
+            border-top: $border;
+            font-size: 16px;
+            padding-top: $text-vertical-padding;
+            padding-bottom: $text-vertical-padding;
+            padding-left: $text-hortizonal-padding;
+
+            span{
+                clear: both;
+            }
+
+            .selection-circle{
+                width: $circle-size;
+                height: $circle-size;
+                border: 1px solid #EAEAEA;
+                background-color: #FFFFFF;
+                border-radius: 50px;
+                position: absolute;
+                margin-left: 260px;
+                margin-top: -30px;
+                box-shadow: inset 0 1px 3px 0px #000000;
+
+                .selection-select-circle{
+                    transform: scale(0.8);
+                }
+            }
+        }
+
+    }
+
+    
+
+
+}   

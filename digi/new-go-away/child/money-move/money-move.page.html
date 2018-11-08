@@ -1,0 +1,37 @@
+<!--
+  Generated template for the MyWalletPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-toolbar mode="md" transparent>
+    <ion-title mode="md">Account</ion-title>
+    <!--ion-icon name="menu" mode="md" color=light></ion-icon-->
+
+    <button ion-button menuToggle end>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content class="kid_gradient_dark" fullscreen no-bounce>
+  <div *ngIf="chData">
+    <money-pile-move id="money-pile-move" [childData]="chData" (transferSelected)="onTransferSelected($event)"></money-pile-move>
+  </div>
+
+
+</ion-content>
+<footer></footer>
+<!-- transfer bucket to bucket HTML -->
+<overlay>
+  <card-input [text]="cardInput.text" [btnText]="cardInput.btnText" (onClickEvent)="cardInput.function()">
+    <app-input [placeholder]="input.placeholder"
+    [type]="input.type"
+    (inputEvent)="input.function($event)">
+    </app-input>
+  </card-input>
+</overlay>

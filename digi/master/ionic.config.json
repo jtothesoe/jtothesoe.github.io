@@ -1,0 +1,8 @@
+{
+  "name": "DP_Front",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "app_id": ""
+}

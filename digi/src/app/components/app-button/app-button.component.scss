@@ -1,0 +1,24 @@
+app-button {
+    button{
+        //Button size
+        width: 260px;
+        height: 50px !important;
+        border-radius: 10px !important;
+
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 30px !important;
+
+        //Text
+        font-size: 20px !important;
+        letter-spacing: 0 !important;
+        text-align: center !important;
+        text-transform: initial !important;
+
+        //Shadow
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+}

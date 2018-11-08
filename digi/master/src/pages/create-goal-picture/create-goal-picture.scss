@@ -1,0 +1,16 @@
+page-create-goal-picture {
+    $input-size: 110px;
+    
+    #hide-file{
+        position: absolute;
+        z-index: 1000;
+        opacity: 0;
+        top: 255px;
+        left: 110px;
+        cursor: pointer;
+        height: $input-size;
+        font-size: 24px;
+        width: $input-size+40;
+
+    }
+}

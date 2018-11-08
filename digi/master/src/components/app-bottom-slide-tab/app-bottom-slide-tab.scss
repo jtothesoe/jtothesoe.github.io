@@ -1,0 +1,24 @@
+app-bottom-slide-tab {
+    #bottom-slide-tab-container{
+        position: fixed;
+        bottom: 0;
+        left: 23%;
+        z-index: 100;
+        width: 50%;
+        height: 40px;
+        background-color: rgba(#000, 0.5);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+        font-size: 12px !important;
+        color: rgba(#FFF, 0.8);
+    }
+
+    #up-arrow{
+        font-size: 20px !important;
+        font-weight: bolder;
+
+    }
+
+
+}

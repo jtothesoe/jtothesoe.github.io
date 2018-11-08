@@ -1,0 +1,71 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+*{
+    font-family: 'Montserrat';
+}
+
+.toolbar-title-md {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.kid_gradient {
+    background-image: radial-gradient( circle at 50% 75%, #01A8FF, #4200FF);
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.kid_gradient_dark {
+    background-image: radial-gradient( circle at 50% 75%, #0055FF, #4200FF);
+    background-size: cover;
+    background-position-x: 50%; 
+}
+
+.parent_gradient {
+    background-image: linear-gradient(to bottom, #9ef3ec, #fcfeff);
+    background-size: cover;
+}
+
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.2em;
+}
+
+.item-md {
+    background-color: transparent;
+    padding: 0px;
+    width: 100%;
+}
+
+.font-weight{
+    font-weight: 500 !important;
+}
+
+#alert{
+    z-index: 100;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(gray, 0.7);
+    transform: translateY(-50%);
+}
+
+.cloud-bg{
+    background-color: #ecf0f1;
+}

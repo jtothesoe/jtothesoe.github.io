@@ -1,0 +1,85 @@
+account-detail {
+    canvas {
+        position: fixed;
+        top: 0px;
+    }
+
+    #descriptive-text{
+        position: absolute;
+        top: 67%;
+        color: white;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 16px;
+    }
+
+    .swiper-pagination-bullet {
+        border-radius: 100%;
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background: #f4f4f4;
+        opacity: .2;
+        pointer-events: auto;
+    }
+
+    .swiper-pagination-bullet-active {
+        border-radius: 100%;
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background: #f4f4f4;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    #slideContainer {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+
+    #account-slides {
+        position: absolute;
+        top: 8%;
+        height: 75%;
+    }
+
+    .descriptionSection {
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        top: 10%;
+        width: 90%;
+        margin-left: 5%;
+        color: white;
+        text-align: left;
+    }
+
+    .descriptionTitle{
+        font-size: 16px;
+        font-style: normal;
+    }
+
+    .descriptionAmount{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    #earnings-summary {
+        font-size: 24px;
+    }
+
+    #balance_last_month {
+        opacity: 0;
+    }
+
+    #income_last_month {
+        opacity: 0;
+    }
+
+    #spending {
+        opacity: 0;
+    }
+}

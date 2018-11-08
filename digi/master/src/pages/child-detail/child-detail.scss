@@ -1,0 +1,36 @@
+page-child-detail {
+    #avatar-holder{
+       
+        top: 15%;
+        width: 100%;
+    }
+
+    #child-name{
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #subtitle{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    #avatar-img-container{
+        float: right;
+        margin-right: 40px;
+    }
+
+    #avatar-text-container{
+        float: left;
+        margin-top: 20px;
+    }
+
+    #child-info-container{
+        clear: both;
+    }
+}

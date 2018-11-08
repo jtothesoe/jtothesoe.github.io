@@ -1,0 +1,18 @@
+
+  
+<ion-content class="kid_gradient" fullscreen no-bounce >
+
+  <div id="back" (click)="back()">
+      <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+      <span> Back </span>
+  </div>
+
+  <div [ngSwitch]="flatState">
+    
+    <div *ngFor="let flat of flats" >
+        <flats  (click)="flat.func()" [img]="flat.img" *ngSwitchCase="flat.state"></flats>
+    </div>
+    
+  </div>
+
+</ion-content>

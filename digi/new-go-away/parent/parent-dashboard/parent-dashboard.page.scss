@@ -1,0 +1,85 @@
+page-parent-dashboard {
+    .toolbar-title-md{
+        color: black;
+        font-weight: 500;
+    }
+
+    .dashboard-card {
+        display: grid;
+        grid-template-columns: 113px auto;
+        grid-gap: 10px;
+        width: 88%;
+        height: 140px;
+        padding: 10px;
+        margin-left: 6%;
+        background-color: #FFFFFF;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(220, 220, 220, 0.5);
+    }
+
+    .avatar-holder {
+        position: relative;
+    }
+
+    .avatar-image {
+        position: absolute;
+        top: 7px;
+        left: 10px;
+        border-radius: 80px;
+        width: 101px;
+        height: 101px;
+    }
+
+    .avatar-holder svg {
+        position: absolute;
+        top: 2px;
+        left: 0px;
+        width: 113px;
+        height: 111px;
+      }
+
+    #oval_holder {
+        z-index: 1000;
+    }
+
+    .child-info {
+        font-size: 14px;
+        height: 60%;
+        margin-top: 10%;
+    }
+
+    .child-name {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .child-balance {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    #cta {
+        position: absolute;
+        bottom: 5px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 0;
+        background-color: #EA4DC3;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    #close-overlay{
+        position: absolute;
+        top: 1%;
+        right: 2%;
+    }
+}

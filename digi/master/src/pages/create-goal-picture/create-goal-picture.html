@@ -1,0 +1,29 @@
+<!--
+  Generated template for the CreateGoalPicturePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+    <ion-toolbar mode="md" transparent>
+      <ion-title mode="md">Money Transfer</ion-title>
+    </ion-toolbar>
+  
+  </ion-header>
+  
+  
+<ion-content class="kid_gradient" fullscreen no-bounce >
+
+  <app-progression text-center [completed]="3" [maxProgressionLength]="4" ></app-progression>
+
+  <app-header-text [text]="header.text" [textStyle]="header.styles"></app-header-text>
+
+  <app-icon-button [icon]="camera.icon" [text]="camera.text" ></app-icon-button>
+
+  <input type="file" accept="image/*" id="hide-file" (change)="imageUpload($event)">
+
+  <!-- Reimplemented after tom 
+  <app-button text-center  [text]="skipButton.text" (click)="skip()" [styles]="skipButton.styles" [color]="skipButton.color"></app-button>
+    -->
+</ion-content>

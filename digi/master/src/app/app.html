@@ -1,0 +1,20 @@
+<ion-menu side="right" [content]="mycontent">
+    <ion-header>
+        <ion-toolbar color="pyggWarning">
+            <ion-title>Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    
+    <ion-content>
+        <ion-list>
+            <ion-item menuClose (tap)="logout()" >Log Out</ion-item>
+            <ion-item menuClose="right" *ngFor="let page of ['account', 'move', 'spend', 'save', 'give', 'invest']" 
+            (tap)="goPage(page)" >{{page}}</ion-item>
+
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<global-alert id="alert" [hidden]="hideAlert"></global-alert>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>

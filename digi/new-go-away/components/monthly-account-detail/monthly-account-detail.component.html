@@ -1,0 +1,21 @@
+<div id="total" class="descriptionSection">
+    <div *ngIf="isParent">
+        <div id="title" class="descriptionTitle">Income and spending:</div>
+    </div>
+    <div *ngIf="!isParent">
+        <div id="title" class="descriptionTitle">This Month:</div>
+    </div>
+
+    <div id="earnings-summary">
+        <div>
+            <div id="balance_last_month">{{childName}} started with ${{balance_last_month | number:'1.2-2'}}</div>
+            <div>
+                <span id="income_last_month">{{childName}} earned ${{income_last_month | number:'1.2-2'}}, </span>
+                <br>
+                <span id="spending">and spent ${{spending | number:'1.2-2'}}.</span>
+            </div>
+        </div>
+
+        <div></div>
+    </div>
+</div>

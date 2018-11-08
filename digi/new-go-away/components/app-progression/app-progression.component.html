@@ -1,0 +1,9 @@
+<!-- Generated template for the MoneyTransferProgressionComponent component -->
+
+ <div id="progression-container">
+    <ul>
+      <li *ngFor="let progression of progressionArray" >
+        <div [ngClass]="{'completed' : progression}"></div>
+      </li>
+    </ul>    
+ </div>

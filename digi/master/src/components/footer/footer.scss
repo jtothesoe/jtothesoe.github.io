@@ -1,0 +1,29 @@
+footer {
+    .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before{
+        background-image: none !important;
+    }
+
+    #container{
+        background-color: white;
+        border-radius: 25px;
+        height: 80px;
+        margin-bottom: 2%;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+
+    }
+
+    .tab-text{
+        line-height: 12px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .tab-icon{
+        display: block;
+    }
+
+}

@@ -1,0 +1,34 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 71 50">
+  <defs>
+    <mask id="mask" x="21.1" y="16.02" width="19.8" height="33.98" maskUnits="userSpaceOnUse">
+      <g id="mask-2">
+        <polygon id="path-1" points="21 16 41 16 41 50 21 50 21 16" style="fill: #fff"/>
+      </g>
+    </mask>
+    <mask id="mask-2-2" x="0" y="0.07" width="25.92" height="36.82" maskUnits="userSpaceOnUse">
+      <g id="mask-4">
+        <polygon id="path-3" points="0 0 26 0 26 37 0 37 0 0" style="fill: #fff"/>
+      </g>
+    </mask>
+  </defs>
+  <title>Artboard 1</title>
+  <g id="Child---Login">
+    <g id="Child-_-Account-_-Balance-Copy" data-name="Child-/-Account-/-Balance-Copy">
+      <rect width="375" height="812" style="fill: #fff"/>
+      <g id="Group-11">
+        <g id="Group-3">
+          <g style="mask: url(#mask)">
+            <path id="Fill-1" d="M30,38l-2,3-2,4q0,2,1,2h2V42h0m0-4V32H22V29a17,17,0,0,1,0-3V18h4a2,2,0,0,1,0,0h0v8a10,10,0,0,0,0,2h4V27h0V19h4V32h2l2-2,2-3v4H37l-2,2H34q0,1,0,3h0v7H24V47a7,7,0,0,1,1-4V41h1V38l2-2,2-2" style="fill: #fff"/>
+          </g>
+        </g>
+        <g id="Group-6">
+          <g style="mask: url(#mask-2-2)">
+            <path id="Fill-4" d="M5,20V32h3V26q0-1,0-2V21h0s0-1,0-2V10h5a1,1,0,0,1,0,0h0v5h5V6H11L8,7,6,10v7a27,27,0,0,0,0,4M14,0h5l4,2,2,3V9a9,9,0,0,1,0,3l-2,3-3,3-5,2v2h0a16,16,0,0,1,0,3v7H6L4,34,2,32V21a28,28,0,0,1,0-5V11L3,7,6,3l3-2h4" style="fill: #fff"/>
+          </g>
+        </g>
+        <path id="Fill-7" d="M42,26h1l2-2a9,9,0,0,0,0-3V15q-2,0-3,3v4a5,5,0,0,0,1,3m2,11-2,4c0,1-1,2,0,2h2V38h1l-2,3m3-25h3a26,26,0,0,1,0,5v2a15,15,0,0,0,0,3q0,2,0,4h1l4-6,2,4-2,2-2,2h0l-2,2H50a30,30,0,0,0,0,3h0v7H40V42a7,7,0,0,1,1-4V37h1V34l2-3h1V28l-4,2H40l-2-2a6,6,0,0,1-1-5l2-5,2-3c2-2,3-3,4-3h1" style="fill: #fff"/>
+        <path id="Fill-9" d="M57,28h1l2-2a9,9,0,0,0,0-3h0V18H60l-3,3v4a5,5,0,0,0,1,3m2,11v4q0,2,1,2h2V40h0V37H60v2m-2,9H55V45a7,7,0,0,1,1-4V39h1V36l2-2,2-2H55l-2-2a7,7,0,0,1,0-5V20l2-3,4-2h5a15,15,0,0,1,0,4v2a16,16,0,0,0,0,3q0,1,0,4h1l3-5h2v2a0,0,0,0,1,0,0v2l-2,2h0l-2,2H65q0,1,0,3h0v7H57" style="fill: #fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

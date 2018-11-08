@@ -1,0 +1,41 @@
+<!--
+  Generated template for the SavingDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-toolbar mode="md" transparent>
+    <ion-title mode="md"></ion-title>
+    <button ion-button menuToggle end>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-toolbar>
+
+</ion-header>
+
+<overlay>
+  <tool-tip [text]="toolTip.text" [header]="toolTip.header" [img]="toolTip.img"></tool-tip>
+</overlay>
+
+<ion-content class="kid_gradient_dark" fullscreen no-bounce>
+  <account-detail [balance]="savingsBalance" title="Savings"></account-detail>
+  <div id="goal-holder">
+    <ion-list class="md" transparent no-lines *ngIf="goals">
+      <ion-item class="md" *ngFor="let goal of goals" (click)="goalItemClickHandler(goal)">
+        <app-img-circle [styles]="renderImg(goal.img)"></app-img-circle>
+        <div class="info-holder">
+          <div class="goal-name">{{goal.name}}</div>
+          <div class="date-info">${{goal.cost/2}} saved of ${{goal.cost}}</div>
+          <div class="date-info">needed by {{goal.date | date}}</div>
+          <div class="slider"> </div>
+        </div>
+      </ion-item>
+    </ion-list>
+  </div>
+  <div>
+    <app-button text-center [text]="addGoalButton.text" [styles]="addGoalButton.styles" (click)="addGoalClickHandler()"></app-button>
+  </div>
+</ion-content>
+<footer></footer>
